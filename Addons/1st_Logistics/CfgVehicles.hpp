@@ -214,7 +214,7 @@ class CfgVehicles
 	{
 		author = "1st CATD";
 		scope = 2;
-		displayName = "[1st] BFT Ausruestung";
+		displayName = "$STR_CATD_Box_BFT";
 		editorCategory = "CATD_Cat";
 		editorSubcategory = "CATD_Subcat_Logistics";
 		maximumLoad = 2000;

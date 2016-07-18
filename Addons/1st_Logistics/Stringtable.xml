@@ -30,6 +30,10 @@
 				<German>[1st] EloKa Ausrüstung</German>
 				<English>[1st] EloKa Equipment</English>
 			</Key>
+			<Key ID="STR_CATD_Box_BFT">
+				<German>[1st] BFT Ausrüstung</German>
+				<English>[1st] BFT Equipment</English>
+			</Key>
 			<Key ID="STR_CATD_Box_Pionier">
 				<German>[1st] Pionierausrüstung</German>
 				<English>[1st] Engineers Equipment</English>
