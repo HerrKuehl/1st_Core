@@ -2,6 +2,10 @@
 <Project name="1st_Core">
 	<Package name="1st_Logistics">
 		<Container name="CfgVehicles">
+			<Key ID="STR_CATD_Box_Equipment">
+				<German>[1st] Ausrüstungskiste</German>
+				<English>[1st] Equipmentbox</English>
+			</Key>
 			<Key ID="STR_CATD_Box_Ammo_US">
 				<German>[1st] Standardmunition US</German>
 				<English>[1st] Basic Ammunition US</English>
@@ -23,11 +27,15 @@
 				<English>[1st] Special Grenades</English>
 			</Key>
 			<Key ID="STR_CATD_Box_EloKa">
-				<German>[1st] EloKa Ausr�stung</German>
+				<German>[1st] EloKa Ausrüstung</German>
 				<English>[1st] EloKa Equipment</English>
 			</Key>
+			<Key ID="STR_CATD_Box_BFT">
+				<German>[1st] BFT Ausrüstung</German>
+				<English>[1st] BFT Equipment</English>
+			</Key>
 			<Key ID="STR_CATD_Box_Pionier">
-				<German>[1st] Pionierausr�stung</German>
+				<German>[1st] Pionierausrüstung</German>
 				<English>[1st] Engineers Equipment</English>
 			</Key>
 		</Container>
