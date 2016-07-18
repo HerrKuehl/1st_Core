@@ -1,0 +1,10 @@
+name = "1st Core";
+picture = "1st_logo.paa";
+actionName = "Website";
+action = "http://www.1stcatd.de/";
+description = "1st Core";
+logo = "1st_logo.paa";
+logoOver = "1st_logo.paa";
+tooltip = "1st_Core";
+overview = "Modifikationspaket der 1st Combined Arms Tactical Division.";
+author = "1st CATD";

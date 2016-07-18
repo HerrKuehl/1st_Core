@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="1st_Core">
+	<Package name="1st_Main">
+		<Container name="CfgFactionClasses">
+			<Key ID="STR_CATD_Faction_B_01">
+				<German>1st Combined Arms Tactical Division</German>
+				<English>1st Combined Arms Tactical Division</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_O_01">
+				<German>1st Combined Arms Tactical Division</German>
+				<English>1st Combined Arms Tactical Division</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_I_01">
+				<German>1st Combined Arms Tactical Division</German>
+				<English>1st Combined Arms Tactical Division</English>
+			</Key>
+		</Container>
+		<Container name="CfgVehicleClasses">
+			<Key ID="STR_CATD_VehClass_Units">
+				<German>[1st] Einheiten</German>
+				<English>[1st] Units</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Units_Crew">
+				<German>[1st] Einheiten (Besatzungen)</German>
+				<English>[1st] Units (Crews)</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Units_Special">
+				<German>[1st] Einheiten (Spezialeinsatzkräfte)</German>
+				<English>[1st] Units (Special Forces)</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Units_Ausbildung">
+				<German>[1st] Einheiten (Ausbildung)</German>
+				<English>[1st] Units (Ausbildung)</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Vehicles">
+				<German>[1st] Fahrzeuge</German>
+				<English>[1st] Vehicles</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Logistics">
+				<German>[1st] Logistik</German>
+				<English>[1st] Logistics</English>
+			</Key>
+			<Key ID="STR_CATD_VehClass_Equipment">
+				<German>[1st] Ausrüstung</German>
+				<English>[1st] Equipment</English>
+			</Key>
+		</Container>
+		<Container name="CfgEditorCategories">
+			<Key ID="STR_CATD_Cat">
+				<German>1st Combined Arms Tactical Division</German>
+				<English>1st Combined Arms Tactical Division</English>
+			</Key>
+		</Container>
+		<Container name="CfgEditorSubcategories">
+			<Key ID="STR_CATD_Subcat_Units">
+				<German>[1st] Einheiten</German>
+				<English>[1st] Units</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Units_Crew">
+				<German>[1st] Einheiten (Besatzungen)</German>
+				<English>[1st] Units (Crews)</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Units_Special">
+				<German>[1st] Einheiten (Spezialeinsatzkräfte)</German>
+				<English>[1st] Units (Special Forces)</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Units_Ausbildung">
+				<German>[1st] Einheiten (Ausbildung)</German>
+				<English>[1st] Units (Ausbildung)</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Vehicles">
+				<German>[1st] Fahrzeuge</German>
+				<English>[1st] Vehicles</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Logistics">
+				<German>[1st] Logistik</German>
+				<English>[1st] Logistics</English>
+			</Key>
+			<Key ID="STR_CATD_Subcat_Equipment">
+				<German>[1st] Ausrüstung</German>
+				<English>[1st] Equipment</English>
+			</Key>
+		</Container>
+	</Package>
+</Project>

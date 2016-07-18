@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="1st_Core">
+	<Package name="1st_Logistics">
+		<Container name="CfgVehicles">
+			<Key ID="STR_CATD_Box_Ammo_US">
+				<German>[1st] Standardmunition US</German>
+				<English>[1st] Basic Ammunition US</English>
+			</Key>
+			<Key ID="STR_CATD_Box_Ammo_BW">
+				<German>[1st] Standardmunition BW</German>
+				<English>[1st] Basic Ammunition BW</English>
+			</Key>
+			<Key ID="STR_CATD_Box_Launcher_US">
+				<German>[1st] Werfer US</German>
+				<English>[1st] Launcher US</English>
+			</Key>
+			<Key ID="STR_CATD_Box_Launcher_BW">
+				<German>[1st] Werfer BW</German>
+				<English>[1st] Launcher BW</English>
+			</Key>
+			<Key ID="STR_CATD_Box_Grenades_Special">
+				<German>[1st] Sonderwurfmittel</German>
+				<English>[1st] Special Grenades</English>
+			</Key>
+			<Key ID="STR_CATD_Box_EloKa">
+				<German>[1st] EloKa Ausrüstung</German>
+				<English>[1st] EloKa Equipment</English>
+			</Key>
+			<Key ID="STR_CATD_Box_Pionier">
+				<German>[1st] Pionierausrüstung</German>
+				<English>[1st] Engineers Equipment</English>
+			</Key>
+		</Container>
+	</Package>
+</Project>
