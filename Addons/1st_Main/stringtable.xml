@@ -3,9 +3,30 @@
 	<Package name="1st_Main">
 		<Container name="CfgFactionClasses">
 			<Key ID="STR_CATD_Faction_B_01">
-				<German>1st Combined Arms Tactical Division</German>
-				<English>1st Combined Arms Tactical Division</English>
+				<German>CATD Bundeswehr (Flecktarn)</German>
+				<English>CATD Bundeswehr (Flecktarn)</English>
 			</Key>
+			<Key ID="STR_CATD_Faction_B_02">
+				<German>CATD Bundeswehr (Tropentarn)</German>
+				<English>CATD Bundeswehr (Tropentarn)</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_B_03">
+				<German>CATD US Army (OCP)</German>
+				<English>CATD US Army (OCP)</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_B_04">
+				<German>CATD US Army (UCP)</German>
+				<English>CATD US Army (UCP)</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_B_05">
+				<German>CATD US Marine Corps (MARPAT W)</German>
+				<English>CATD US Marine Corps (MARPAT W)</English>
+			</Key>
+			<Key ID="STR_CATD_Faction_B_06">
+				<German>CATD US Marine Corps (MARPAT D)</German>
+				<English>CATD US Marine Corps (MARPAT D)</English>
+			</Key>
+			
 			<Key ID="STR_CATD_Faction_O_01">
 				<German>1st Combined Arms Tactical Division</German>
 				<English>1st Combined Arms Tactical Division</English>

@@ -9,7 +9,28 @@ class CfgVehicles
 	class Box_NATO_WpsLaunch_F;
 	class Box_NATO_WpsSpecial_F;
 	class Box_NATO_Support_F;
+	class B_supplyCrate_F;
 	
+	class CATD_Box_Equipment: B_supplyCrate_F
+	{
+		author = "1st CATD";
+		scope = 2;
+		displayName = "$STR_CATD_Box_Equipment";
+		editorCategory = "CATD_Cat";
+		editorSubcategory = "CATD_Subcat_Logistics";
+		maximumLoad = 2000;
+		transportMaxWeapons = 100;
+		transportMaxMagazines = 100;
+		transportMaxBackpacks = 100;
+		class TransportItems
+		{};
+		class TransportWeapons
+		{};
+		class TransportMagazines
+		{};
+		class TransportBackpacks
+		{};
+	};	
 	class CATD_Box_Ammo_US: Box_NATO_Ammo_F
 	{
 		author = "1st CATD";
