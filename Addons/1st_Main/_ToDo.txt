@@ -1,0 +1,12 @@
+Ausrüstung PMC
+
+Kampfunterstützungsklassen
+    Statische Waffen (Mörser, MG, Panzerabwehr, ... )
+
+Nachtkampfausrüstung
+    IR-Stroboskope
+    BW (EoTech+G36)
+
+"Nackte Uniform" in die CfgVehicles // Warten auf ACE³
+
+MVGs für PMC
