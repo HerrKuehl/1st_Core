@@ -29,11 +29,9 @@ class CfgVehicles
         {
             MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag, 25);
             MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag_Tracer_Red, 10);
-            MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW, 10);
+            MACRO_ADDMAGAZINE(rhs_200rnd_556x45_M_SAW, 8);
             MACRO_ADDMAGAZINE(rhsusf_100Rnd_762x51, 8);
-            MACRO_ADDMAGAZINE(rhsusf_100Rnd_762x51_m993, 2);
             MACRO_ADDMAGAZINE(20Rnd_762x51_Mag, 6);
-            MACRO_ADDMAGAZINE(rhsusf_mag_15Rnd_9x19_FMJ, 8);
             MACRO_ADDMAGAZINE(HandGrenade, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
             MACRO_ADDMAGAZINE(SmokeShell, 5);
@@ -62,10 +60,9 @@ class CfgVehicles
         {
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36, 25);
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36_Tracer, 10);
-            MACRO_ADDMAGAZINE(BWA3_200Rnd_556x45, 10);
-            MACRO_ADDMAGAZINE(BWA3_120Rnd_762x51, 10);
+            MACRO_ADDMAGAZINE(BWA3_200Rnd_556x45, 8);
+            MACRO_ADDMAGAZINE(BWA3_120Rnd_762x51, 8);
             MACRO_ADDMAGAZINE(hlc_20rnd_762x51_b_G3, 6);
-            MACRO_ADDMAGAZINE(BWA3_15Rnd_9x19_P8, 8);
             MACRO_ADDMAGAZINE(BWA3_DM51A1, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
             MACRO_ADDMAGAZINE(BWA3_DM25, 5);
@@ -92,12 +89,11 @@ class CfgVehicles
         {};
         class TransportMagazines
         {
-            MACRO_ADDMAGAZINE(UK3CB_BAF_556_30Rnd, 25);
-            MACRO_ADDMAGAZINE(UK3CB_BAF_556_30Rnd_T, 10);
-            MACRO_ADDMAGAZINE(UK3CB_BAF_556_200Rnd, 10);
-            MACRO_ADDMAGAZINE(UK3CB_BAF_762_100Rnd, 10);
-            MACRO_ADDMAGAZINE(UK3CB_BAF_762_L42A1_20Rnd, 6);
-            MACRO_ADDMAGAZINE(UK3CB_BAF_9_17Rnd, 8);
+            MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag, 25);
+            MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag_Tracer_Red, 10);
+            MACRO_ADDMAGAZINE(UK3CB_BAF_556_200Rnd, 8);
+            MACRO_ADDMAGAZINE(UK3CB_BAF_762_100Rnd, 8);
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag, 6);
             MACRO_ADDMAGAZINE(HandGrenade, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
             MACRO_ADDMAGAZINE(SmokeShell, 5);
@@ -125,6 +121,7 @@ class CfgVehicles
         class TransportMagazines
         {
             MACRO_ADDMAGAZINE(rhsusf_5Rnd_762x51_m118_special_Mag, 10);
+            MACRO_ADDMAGAZINE(rhsusf_mag_15Rnd_9x19_FMJ, 8);
         };
         class TransportBackpacks
         {};
@@ -147,6 +144,7 @@ class CfgVehicles
         class TransportMagazines
         {
             MACRO_ADDMAGAZINE(hlc_5rnd_300WM_FMJ_AWM, 10);
+            MACRO_ADDMAGAZINE(BWA3_15Rnd_9x19_P8, 8);
         };
         class TransportBackpacks
         {};
@@ -169,6 +167,7 @@ class CfgVehicles
         class TransportMagazines
         {
             MACRO_ADDMAGAZINE(hlc_5rnd_300WM_FMJ_AWM, 10);
+            MACRO_ADDMAGAZINE(UK3CB_BAF_9_17Rnd, 8);
         };
         class TransportBackpacks
         {};
@@ -189,7 +188,6 @@ class CfgVehicles
         class TransportWeapons
         {
             MACRO_ADDWEAPON(rhs_weap_m136_hp, 4);
-            MACRO_ADDWEAPON(rhs_weap_m136_hedp, 2);
             MACRO_ADDWEAPON(rhs_weap_fim92, 1);
         };
         class TransportMagazines
@@ -243,7 +241,6 @@ class CfgVehicles
         class TransportWeapons
         {
             MACRO_ADDWEAPON(launch_NLAW_F, 4);
-            MACRO_ADDWEAPON(rhs_weap_m136_hedp, 2);
             MACRO_ADDWEAPON(rhs_weap_fim92, 1);
         };
         class TransportMagazines

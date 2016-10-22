@@ -48,8 +48,8 @@ if (_camo == "US_MC_MARPAT_D") then {
 };
 if (_camo == "BAF_BA_MTP") then {
     ["U_B_FullGhillie_lsh", "V_BandollierB_oli", "tf_rt1523g_sage", "H_Booniehat_khk"] call CATD_fnc_Outfit;
-    ["UK3CB_BAF_L91A1"] call CATD_fnc_addWeapon;
-    ["vest", "UK3CB_BAF_9_30Rnd", 6] call CATD_fnc_addItemTo;
+    ["rhs_weap_m4_carryhandle"] call CATD_fnc_addWeapon;
+    ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
 
     _unit linkItem "tf_anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
