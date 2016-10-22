@@ -50,7 +50,7 @@ class CfgVehicles
                         {
                             condition = "CATD_Nightvision";
                             displayName = "Nachtsichtgerät";
-                            statement = "[_player] call CATD_fnc_Nightvision;";
+                            statement = "[_player, 'NVGoggles'] call CATD_fnc_Nightvision;";
                         };
                     };
                     class Attachments
