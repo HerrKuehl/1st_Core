@@ -1,8 +1,8 @@
 
 class CfgEditorCategories
 {
-	class CATD_Cat
-	{
-		displayName = "$STR_CATD_Cat";
-	};
+    class CATD_Cat
+    {
+        displayName = "1st Combined Arms Tactical Division";
+    };
 };

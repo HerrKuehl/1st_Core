@@ -1,32 +1,32 @@
 
 class CfgEditorSubcategories
 {
-	class CATD_Subcat_Units
-	{
-		displayName = "$STR_CATD_Subcat_Units";
-	};
-	class CATD_Subcat_Units_Crew
-	{
-		displayName = "$STR_CATD_Subcat_Units_Crew";
-	};
-	class CATD_Subcat_Units_Special
-	{
-		displayName = "$STR_CATD_Subcat_Units_Special";
-	};
-	class CATD_Subcat_Units_Ausbildung
-	{
-		displayName = "$STR_CATD_Subcat_Units_Ausbildung";
-	};
-	class CATD_Subcat_Vehicles
-	{
-		displayName = "$STR_CATD_Subcat_Vehicles";
-	};
-	class CATD_Subcat_Logistics
-	{
-		displayName = "$STR_CATD_Subcat_Logistics";
-	};
-	class CATD_Subcat_Equipment
-	{
-		displayName = "$STR_CATD_Subcat_Equipment";
-	};
+    class CATD_Subcat_Units
+    {
+        displayName = "[1st] Einheiten";
+    };
+    class CATD_Subcat_Units_Crew
+    {
+        displayName = "[1st] Einheiten (Besatzungen)";
+    };
+    class CATD_Subcat_Units_Special
+    {
+        displayName = "[1st] Einheiten (Spezialkräfte)";
+    };
+    class CATD_Subcat_Units_Ausbildung
+    {
+        displayName = "[1st] Einheiten (Ausbildung)";
+    };
+    class CATD_Subcat_Vehicles
+    {
+        displayName = "[1st] Fahrzeuge";
+    };
+    class CATD_Subcat_Logistics
+    {
+        displayName = "[1st] Logistik";
+    };
+    class CATD_Subcat_Equipment
+    {
+        displayName = "[1st] Ausrüstung";
+    };
 };
