@@ -1,15 +1,15 @@
 if (_camo == "BW_F") then {
     ["U_B_FullGhillie_lsh", "V_BandollierB_oli", "tf_rt1523g_sage", "H_Booniehat_khk"] call CATD_fnc_Outfit;
-    ["hlc_smg_mp5a2"] call CATD_fnc_addWeapon;
-    ["vest", "hlc_30Rnd_9x19_B_MP5", 6] call CATD_fnc_addItemTo;
+    ["hlc_rifle_G36KV"] call CATD_fnc_addWeapon;
+    ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
 
     _unit linkItem "tf_anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
     ["U_B_FullGhillie_ard", "V_BandollierB_oli", "tf_rt1523g_sage", "H_Booniehat_khk"] call CATD_fnc_Outfit;
-    ["hlc_smg_mp5a2"] call CATD_fnc_addWeapon;
-    ["vest", "hlc_30Rnd_9x19_B_MP5", 6] call CATD_fnc_addItemTo;
+    ["hlc_rifle_G36KV"] call CATD_fnc_addWeapon;
+    ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
 
     _unit linkItem "tf_anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
