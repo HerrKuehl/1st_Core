@@ -114,7 +114,18 @@ if (_faction == "CATD_Faction_B_07") then {
 // GREENFOR
 // Private Military Company
 if (_faction == "CATD_Faction_I_01") then {
-    ["U_BG_Guerilla2_3"] call CATD_fnc_Outfit;
+    if ((_unitclass find "crew_tank") >= 0) then {
+        ["U_BG_Guerilla2_2", nil, nil, "H_Cap_khaki_specops_UK"] call CATD_fnc_Outfit;
+    };
+    if ((_unitclass find "crew_heli") >= 0) then {
+        ["U_BG_Guerilla2_1", nil, nil, "H_Watchcap_khk"] call CATD_fnc_Outfit;
+    };
+    if ((_unitclass find "crew_jet") >= 0) then {
+        ["U_BG_Guerilla2_3", nil, nil, "H_Cap_tan_specops_US"] call CATD_fnc_Outfit;
+    };
+    if (((_unitclass find "crew_heli") == -1) && ((_unitclass find "crew_tank") == -1) && ((_unitclass find "crew_jet") == -1)) then {
+        ["U_BG_Guerrilla_6_1", nil, nil, "H_Cap_blk_ION"] call CATD_fnc_Outfit;
+    };
 };
 
 call CATD_fnc_Gear_BasicMedical;

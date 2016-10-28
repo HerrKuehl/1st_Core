@@ -76,23 +76,30 @@ if (_camo == "BAF_BA_MTP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
-    ["U_BG_Guerilla2_3", "V_PlateCarrier1_blk"] call CATD_fnc_Outfit;
+    ["U_BG_Guerilla2_2", "V_PlateCarrier1_blk", nil, "H_HelmetSpecB"] call CATD_fnc_Outfit;
+    ["arifle_SPAR_01_blk_F", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
+    ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
+    ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
+    ["hgun_P07_F"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_anprc148jem";
+    ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 
 call CATD_fnc_Gear_BasicMedical;
-_unit linkItem "ItemGPS";
 
 if (playerSide == west) then {
     [nil, nil, "B_UAV_01_backpack_F"] call CATD_fnc_Outfit;
-    ["uniform", "B_UavTerminal"] call CATD_fnc_addItemTo;
+    _unit linkItem "B_UavTerminal";
 };
 if (playerSide == east) then {
     [nil, nil, "O_UAV_01_backpack_F"] call CATD_fnc_Outfit;
-    ["uniform", "O_UavTerminal"] call CATD_fnc_addItemTo;
+    _unit linkItem "O_UavTerminal";
 };
 if (playerSide == independent) then {
     [nil, nil, "I_UAV_01_backpack_F"] call CATD_fnc_Outfit;
-    ["uniform", "I_UavTerminal"] call CATD_fnc_addItemTo;
+    _unit linkItem "I_UavTerminal";
 };
 
 ["Laserdesignator"] call CATD_fnc_addWeapon;

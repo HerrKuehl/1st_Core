@@ -1,5 +1,5 @@
 
-    class CATD_PMC_Soldier_Base: B_soldier_base_F
+    class CATD_PMC_Soldier_Base: I_soldier_base_F
     {
         author = "1st CATD";
         scope = 2;
@@ -102,7 +102,7 @@
 
 // Crews
 
-    class CATD_PMC_Crew_Base: B_soldier_base_F
+    class CATD_PMC_Crew_Base: CATD_PMC_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
@@ -216,7 +216,7 @@
 
 // Special Forces
 
-    class CATD_PMC_Soldier_Special_Base: B_soldier_base_F
+    class CATD_PMC_Soldier_Special_Base: CATD_PMC_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;

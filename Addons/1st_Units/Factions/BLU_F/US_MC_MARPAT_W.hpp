@@ -102,7 +102,7 @@
 
 // Crews
 
-    class CATD_US_MC_MARPAT_W_Crew_Base: B_soldier_base_F
+    class CATD_US_MC_MARPAT_W_Crew_Base: CATD_US_MC_MARPAT_W_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
@@ -216,7 +216,7 @@
 
 // Special Forces
 
-    class CATD_US_MC_MARPAT_W_Soldier_Special_Base: B_soldier_base_F
+    class CATD_US_MC_MARPAT_W_Soldier_Special_Base: CATD_US_MC_MARPAT_W_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;

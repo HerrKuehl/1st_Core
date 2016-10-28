@@ -76,7 +76,15 @@ if (_camo == "BAF_BA_MTP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
-    ["U_BG_Guerilla2_3", "V_PlateCarrier1_blk"] call CATD_fnc_Outfit;
+    ["U_BG_Guerrilla_6_1", "V_PlateCarrier1_blk", "B_TacticalPack_blk", "H_Watchcap_camo"] call CATD_fnc_Outfit;
+    ["hlc_rifle_RPK12", "optic_Hamr"] call CATD_fnc_addWeapon;
+    ["vest", "hlc_60Rnd_545x39_t_rpk", 4] call CATD_fnc_addItemTo;
+    ["backpack", "hlc_60Rnd_545x39_t_rpk", 12] call CATD_fnc_addItemTo;
+    ["hgun_P07_F"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_anprc148jem";
+    ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 
 call CATD_fnc_Gear_BasicMedical;

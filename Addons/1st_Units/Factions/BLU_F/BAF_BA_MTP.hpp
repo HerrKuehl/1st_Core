@@ -102,7 +102,7 @@
 
 // Crews
 
-    class CATD_BAF_BA_MTP_Crew_Base: B_soldier_base_F
+    class CATD_BAF_BA_MTP_Crew_Base: CATD_BAF_BA_MTP_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
@@ -216,7 +216,7 @@
 
 // Special Forces
 
-    class CATD_BAF_BA_MTP_Soldier_Special_Base: B_soldier_base_F
+    class CATD_BAF_BA_MTP_Soldier_Special_Base: CATD_BAF_BA_MTP_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
