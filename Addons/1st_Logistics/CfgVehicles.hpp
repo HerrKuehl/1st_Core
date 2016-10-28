@@ -10,17 +10,87 @@ class CfgVehicles
     class Box_NATO_WpsSpecial_F;
     class Box_NATO_Support_F;
 
-    class CATD_Box_Ammo_US: Box_NATO_Ammo_F
-    {
+
+    class CATD_Box_Ammo: Box_NATO_Ammo_F {
         author = "1st CATD";
-        scope = 2;
-        displayName = "[1st] Standardmunition US";
+        scope = 0;
+        displayName = "[1st] Standardmunition";
         editorCategory = "CATD_Cat";
         editorSubcategory = "CATD_Subcat_Logistics";
         maximumLoad = 2000;
         transportMaxWeapons = 100;
         transportMaxMagazines = 100;
         transportMaxBackpacks = 100;
+        class TransportItems {};
+        class TransportWeapons {};
+        class TransportMagazines {};
+        class TransportBackpacks {};
+    };
+    class CATD_Box_Launcher: Box_NATO_WpsLaunch_F {
+        author = "1st CATD";
+        scope = 0;
+        displayName = "[1st] Werfer";
+        editorCategory = "CATD_Cat";
+        editorSubcategory = "CATD_Subcat_Logistics";
+        maximumLoad = 2000;
+        transportMaxWeapons = 100;
+        transportMaxMagazines = 100;
+        transportMaxBackpacks = 100;
+        class TransportItems {};
+        class TransportWeapons {};
+        class TransportMagazines {};
+        class TransportBackpacks{};
+    };
+    class CATD_Box_Grenades: Box_NATO_Grenades_F {
+        author = "1st CATD";
+        scope = 0;
+        displayName = "[1st] Granaten";
+        editorCategory = "CATD_Cat";
+        editorSubcategory = "CATD_Subcat_Logistics";
+        maximumLoad = 2000;
+        transportMaxWeapons = 100;
+        transportMaxMagazines = 100;
+        transportMaxBackpacks = 100;
+        class TransportItems {};
+        class TransportWeapons {};
+        class TransportMagazines {};
+        class TransportBackpacks{};
+    };
+    class CATD_Box_Support: Box_NATO_Support_F {
+        author = "1st CATD";
+        scope = 0;
+        displayName = "[1st] Support";
+        editorCategory = "CATD_Cat";
+        editorSubcategory = "CATD_Subcat_Logistics";
+        maximumLoad = 2000;
+        transportMaxWeapons = 100;
+        transportMaxMagazines = 100;
+        transportMaxBackpacks = 100;
+        class TransportItems {};
+        class TransportWeapons {};
+        class TransportMagazines {};
+        class TransportBackpacks{};
+    };
+    class CATD_Box_Special: Box_NATO_WpsSpecial_F {
+        author = "1st CATD";
+        scope = 0;
+        displayName = "[1st] Special";
+        editorCategory = "CATD_Cat";
+        editorSubcategory = "CATD_Subcat_Logistics";
+        maximumLoad = 2000;
+        transportMaxWeapons = 100;
+        transportMaxMagazines = 100;
+        transportMaxBackpacks = 100;
+        class TransportItems {};
+        class TransportWeapons {};
+        class TransportMagazines {};
+        class TransportBackpacks{};
+    };
+
+
+    class CATD_Box_Ammo_US: CATD_Box_Ammo {
+        scope = 2;
+        displayName = "[1st] Standardmunition US";
         class TransportItems
         {};
         class TransportWeapons
@@ -41,17 +111,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Ammo_BW: Box_NATO_Ammo_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Ammo_BW: CATD_Box_Ammo {
         scope = 2;
         displayName = "[1st] Standardmunition BW";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -72,17 +134,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Ammo_BAF: Box_NATO_Ammo_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Ammo_BAF: CATD_Box_Ammo {
         scope = 2;
         displayName = "[1st] Standardmunition BAF";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -103,17 +157,34 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_AmmoSpecial_US: Box_NATO_Ammo_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Ammo_PMC: CATD_Box_Ammo {
+        scope = 2;
+        displayName = "[1st] Standardmunition PMC";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {};
+        class TransportMagazines
+        {
+            MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag, 20);
+            MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36, 5);
+            MACRO_ADDMAGAZINE(30Rnd_556x45_Stanag_Tracer_Red, 8);
+            MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36_Tracer, 2);
+            MACRO_ADDMAGAZINE(hlc_60Rnd_545x39_t_rpk, 30);
+            MACRO_ADDMAGAZINE(hlc_100Rnd_762x51_M_M60E4, 8);
+            MACRO_ADDMAGAZINE(20Rnd_762x51_Mag, 6);
+            MACRO_ADDMAGAZINE(HandGrenade, 5);
+            MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
+            MACRO_ADDMAGAZINE(SmokeShell, 5);
+            MACRO_ADDMAGAZINE(SmokeShellRed, 2);
+            MACRO_ADDMAGAZINE(SmokeShellBlue, 2);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_AmmoSpecial_US: CATD_Box_Ammo {
         scope = 2;
         displayName = "[1st] Sondermunition US";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -126,17 +197,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_AmmoSpecial_BW: Box_NATO_Ammo_F
-    {
-        author = "1st CATD";
+    class CATD_Box_AmmoSpecial_BW: CATD_Box_Ammo {
         scope = 2;
         displayName = "[1st] Sondermunition BW";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -149,17 +212,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_AmmoSpecial_BAF: Box_NATO_Ammo_F
-    {
-        author = "1st CATD";
+    class CATD_Box_AmmoSpecial_BAF: CATD_Box_Ammo {
         scope = 2;
         displayName = "[1st] Sondermunition BAF";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -172,17 +227,24 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Launcher_US: Box_NATO_WpsLaunch_F
-    {
-        author = "1st CATD";
+    class CATD_Box_AmmoSpecial_PMC : CATD_Box_Ammo {
+        scope = 2;
+        displayName = "[1st] Sondermunition PMC";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {};
+        class TransportMagazines
+        {
+            MACRO_ADDMAGAZINE(hlc_5rnd_300WM_FMJ_AWM, 10);
+            MACRO_ADDMAGAZINE(16Rnd_9x21_Mag, 8);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_Launcher_US: CATD_Box_Launcher {
         scope = 2;
         displayName = "[1st] Werfer US";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -198,17 +260,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Launcher_BW: Box_NATO_WpsLaunch_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Launcher_BW: CATD_Box_Launcher {
         scope = 2;
         displayName = "[1st] Werfer BW";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -225,17 +279,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Launcher_BAF: Box_NATO_WpsLaunch_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Launcher_BAF: CATD_Box_Launcher {
         scope = 2;
         displayName = "[1st] Werfer BAF";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -251,17 +297,27 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Grenades_Special: Box_NATO_Grenades_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Launcher_PMC: CATD_Box_Launcher {
+        scope = 2;
+        displayName = "[1st] Werfer PMC";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {
+            MACRO_ADDWEAPON(rhs_weap_m136_hp, 4);
+            MACRO_ADDWEAPON(rhs_weap_fim92, 1);
+        };
+        class TransportMagazines
+        {
+            MACRO_ADDMAGAZINE(TITAN_AT, 3);
+            MACRO_ADDMAGAZINE(rhs_fim92_mag, 3);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_Grenades_Special: CATD_Box_Grenades {
         scope = 2;
         displayName = "[1st] Sonderwurfmittel";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {};
         class TransportWeapons
@@ -281,17 +337,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_EloKa: Box_NATO_WpsSpecial_F
-    {
-        author = "1st CATD";
+    class CATD_Box_EloKa: CATD_Box_Special {
         scope = 2;
         displayName = "[1st] EloKa Ausrüstung";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {
             MACRO_ADDITEM(B_UavTerminal, 4);
@@ -313,17 +361,9 @@ class CfgVehicles
             MACRO_ADDBACKPACK(B_UAV_01_backpack_F, 2);
         };
     };
-    class CATD_Box_BFT: Box_NATO_WpsSpecial_F
-    {
-        author = "1st CATD";
+    class CATD_Box_BFT: CATD_Box_Special {
         scope = 2;
         displayName = "[1st] BFT Ausrüstung";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {
             MACRO_ADDITEM(ItemcTab, 4);
@@ -337,17 +377,9 @@ class CfgVehicles
         class TransportBackpacks
         {};
     };
-    class CATD_Box_Pionier: Box_NATO_Support_F
-    {
-        author = "1st CATD";
+    class CATD_Box_Pionier: CATD_Box_Support {
         scope = 2;
         displayName = "[1st] Pionierausrüstung";
-        editorCategory = "CATD_Cat";
-        editorSubcategory = "CATD_Subcat_Logistics";
-        maximumLoad = 2000;
-        transportMaxWeapons = 100;
-        transportMaxMagazines = 100;
-        transportMaxBackpacks = 100;
         class TransportItems
         {
             MACRO_ADDITEM(ToolKit, 2);

@@ -77,7 +77,7 @@ if (_camo == "US_MC_MARPAT_D") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BAF_BA_MTP") then {
-    ["UK3CB_BAF_U_CombatUniform_MTP", "UK3CB_BAF_V_Osprey_Rifleman_C", "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B", "UK3CB_BAF_H_Mk7_Camo_B"] call CATD_fnc_Outfit;
+    ["UK3CB_BAF_U_CombatUniform_MTP", "UK3CB_BAF_V_Osprey_Rifleman_C", "UK3CB_BAF_B_Carryall_MTP", "UK3CB_BAF_H_Mk7_Camo_B"] call CATD_fnc_Outfit;
     ["UK3CB_BAF_L85A2", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "UK3CB_BAF_556_30Rnd", 6] call CATD_fnc_addItemTo;
     ["vest", "UK3CB_BAF_556_30Rnd_T", 4] call CATD_fnc_addItemTo;
@@ -90,7 +90,17 @@ if (_camo == "BAF_BA_MTP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
-    ["U_BG_Guerilla2_3", "V_PlateCarrier1_blk"] call CATD_fnc_Outfit;
+    ["U_BG_Guerilla2_3", "V_PlateCarrier1_blk", "B_Carryall_cbr", "H_Cap_blk_ION"] call CATD_fnc_Outfit;
+    ["rhs_weap_m4a1_carryhandle_mstock", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
+    ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
+    ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
+    ["hgun_P07_f"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag"] call CATD_fnc_addItemTo;
+
+    ["backpack", "Titan_AT", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_anprc148jem";
+    ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 
 call CATD_fnc_Gear_BasicMedical;

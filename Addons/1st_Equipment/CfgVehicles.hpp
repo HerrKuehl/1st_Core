@@ -52,6 +52,12 @@ class CfgVehicles
                             displayName = "Nachtsichtgerät";
                             statement = "[_player, 'NVGoggles'] call CATD_fnc_Nightvision;";
                         };
+                        class IR_Stroboskop
+                        {
+                            condition = "";
+                            displayName = "IR Stroboskop";
+                            statement = "[nil, 'ACE_IR_Strobe_Item'] call CATD_fnc_addItemTo;";
+                        };
                     };
                     class Attachments
                     {
@@ -82,6 +88,24 @@ class CfgVehicles
                         condition = "";
                         displayName = "Optiken / Visiere";
                         statement = "";
+                        class Optic_RSAS
+                        {
+                            condition = "";
+                            displayName = "RSAS";
+                            statement = "[_player, 'BWA3_optic_RSAS'] call CATD_fnc_Optics;";
+                        };
+                        class Optic_ACO
+                        {
+                            condition = "";
+                            displayName = "ACO";
+                            statement = "[_player, 'optic_Aco_smg'] call CATD_fnc_Optics;";
+                        };
+                        class Optic_Holo
+                        {
+                            condition = "";
+                            displayName = "Reflexvisier";
+                            statement = "[_player, 'optic_Holosight_blk_F'] call CATD_fnc_Optics;";
+                        };
                         class Optic_ACOG
                         {
                             condition = "";

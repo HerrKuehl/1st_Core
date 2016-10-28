@@ -102,7 +102,7 @@
 
 // Crews
 
-    class CATD_BW_F_Crew_Base: B_soldier_base_F
+    class CATD_BW_F_Crew_Base: CATD_BW_F_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
@@ -216,7 +216,7 @@
 
 // Special Forces
 
-    class CATD_BW_F_Soldier_Special_Base: B_soldier_base_F
+    class CATD_BW_F_Soldier_Special_Base: CATD_BW_F_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;
@@ -251,7 +251,7 @@
 
 // Basic Combat Training
 
-    class CATD_BW_F_Soldier_Ausbildung_Base: B_soldier_base_F
+    class CATD_BW_F_Soldier_Ausbildung_Base: CATD_BW_F_Soldier_Base
     {
         author = "1st CATD";
         scope = 2;

@@ -31,7 +31,7 @@ if (_camo == "BW_T") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_OCP") then {
-    ["rhs_uniform_cu_ocp", "rhsusf_iotv_ocp_Teamleader", "", "rhsusf_ach_helmet_headset_ocp"] call CATD_fnc_Outfit;
+    ["rhs_uniform_cu_ocp", "rhsusf_iotv_ocp_Teamleader", "rhsusf_assault_eagleaiii_ocp_CATD", "rhsusf_ach_helmet_headset_ocp"] call CATD_fnc_Outfit;
     ["rhs_weap_m4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
@@ -111,7 +111,20 @@ if (_camo == "BAF_BA_MTP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
-    ["U_BG_Guerilla2_3", "V_PlateCarrier1_blk"] call CATD_fnc_Outfit;
+    ["U_BG_Guerilla2_1", "V_PlateCarrier1_blk", "B_TacticalPack_blk", "H_HelmetSpecB_paint2"] call CATD_fnc_Outfit;
+    ["rhs_weap_m16a4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
+    ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
+    ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
+    ["hgun_P07_F"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
+
+    ["vest", "HandGrenade", 2] call CATD_fnc_addItemTo;
+    ["vest", "SmokeShell", 2] call CATD_fnc_addItemTo;
+    ["vest", "SmokeShellBlue"] call CATD_fnc_addItemTo;
+    ["vest", "SmokeShellRed"] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_anprc148jem";
+    ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 
 call CATD_fnc_Gear_BasicMedical;

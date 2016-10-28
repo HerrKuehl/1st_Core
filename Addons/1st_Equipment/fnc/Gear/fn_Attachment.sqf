@@ -16,6 +16,12 @@ if (_attachment == "silencer") then {
     if ((primaryWeapon _unit) isKindof ["UK3CB_BAF_L85A2", configFile >> "CfgWeapons"]) then {
         _unit addPrimaryWeaponItem "UK3CB_BAF_Silencer_L85";
     };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_01_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "muzzle_snds_B";
+    };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_03_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "muzzle_snds_B";
+    };
 };
 
 if (_attachment == "laser") then {
@@ -34,6 +40,12 @@ if (_attachment == "laser") then {
     if ((primaryWeapon _unit) isKindof ["UK3CB_BAF_L85A2", configFile >> "CfgWeapons"]) then {
         hint "Kein passendes Anbauteil vorhanden!";
     };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_01_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "acc_pointer_IR";
+    };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_03_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "acc_pointer_IR";
+    };
 };
 
 if (_attachment == "flashlight") then {
@@ -51,5 +63,11 @@ if (_attachment == "flashlight") then {
     };
     if ((primaryWeapon _unit) isKindof ["UK3CB_BAF_L85A2", configFile >> "CfgWeapons"]) then {
         hint "Kein passendes Anbauteil vorhanden!";
+    };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_01_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "acc_flashlight";
+    };
+    if ((primaryWeapon _unit) isKindof ["arifle_SPAR_03_base_F", configFile >> "CfgWeapons"]) then {
+        _unit addPrimaryWeaponItem "acc_flashlight";
     };
 };
