@@ -25,7 +25,7 @@ if (_camo == "BW_T") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_OCP") then {
-    ["rhs_uniform_cu_ocp", "rhsusf_iotv_ocp_Medic", "rhsusf_assault_eagleaiii_ocp_CATD", "rhs_ach_helmet_ocp"] call CATD_fnc_Outfit;
+    ["rhs_uniform_cu_ocp", "rhsusf_iotv_ocp_Medic", "rhsusf_assault_eagleaiii_ocp_CATD", "rhsusf_ach_helmet_ocp"] call CATD_fnc_Outfit;
     ["rhs_weap_m4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
@@ -38,7 +38,7 @@ if (_camo == "US_A_OCP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_UCP") then {
-    ["rhs_uniform_cu_ucp", "rhsusf_iotv_ucp_Medic", "rhsusf_assault_eagleaiii_ucp_CATD", "rhs_ach_helmet_ucp"] call CATD_fnc_Outfit;
+    ["rhs_uniform_cu_ucp", "rhsusf_iotv_ucp_Medic", "rhsusf_assault_eagleaiii_ucp_CATD", "rhsusf_ach_helmet_ucp"] call CATD_fnc_Outfit;
     ["rhs_weap_m4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;

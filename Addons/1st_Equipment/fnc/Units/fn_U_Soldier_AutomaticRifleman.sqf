@@ -23,8 +23,8 @@ if (_camo == "BW_T") then {
 if (_camo == "US_A_OCP") then {
     ["rhs_uniform_cu_ocp", "rhsusf_iotv_ocp_SAW", "rhsusf_assault_eagleaiii_ocp_CATD", "rhsusf_ach_bare_ess"] call CATD_fnc_Outfit;
     ["rhs_weap_m249_pip_L", "rhsusf_acc_ELCAN"] call CATD_fnc_addWeapon;
-    ["vest", "rhs_200rnd_556x56_M_SAW"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_200rnd_556x56_M_SAW", 3] call CATD_fnc_addItemTo;
+    ["vest", "rhs_200rnd_556x45_M_SAW"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_200rnd_556x45_M_SAW", 3] call CATD_fnc_addItemTo;
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
@@ -34,8 +34,8 @@ if (_camo == "US_A_OCP") then {
 if (_camo == "US_A_UCP") then {
     ["rhs_uniform_cu_ucp", "rhsusf_iotv_ucp_SAW", "rhsusf_assault_eagleaiii_ucp_CATD", "rhsusf_ach_bare_tan_ess"] call CATD_fnc_Outfit;
     ["rhs_weap_m249_pip_L", "rhsusf_acc_ELCAN"] call CATD_fnc_addWeapon;
-    ["vest", "rhs_200rnd_556x56_M_SAW"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_200rnd_556x56_M_SAW", 3] call CATD_fnc_addItemTo;
+    ["vest", "rhs_200rnd_556x45_M_SAW"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_200rnd_556x45_M_SAW", 3] call CATD_fnc_addItemTo;
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
@@ -45,8 +45,8 @@ if (_camo == "US_A_UCP") then {
 if (_camo == "US_MC_MARPAT_W") then {
     ["rhs_uniform_FROG01_wd", "rhsusf_spc_iar", "rhsusf_assault_eagleaiii_coy_CATD", "rhsusf_lwh_helmet_marpatwd_ess"] call CATD_fnc_Outfit;
     ["rhs_weap_m249_pip_L", "rhsusf_acc_ELCAN"] call CATD_fnc_addWeapon;
-    ["vest", "rhs_200rnd_556x56_M_SAW"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_200rnd_556x56_M_SAW", 3] call CATD_fnc_addItemTo;
+    ["vest", "rhs_200rnd_556x45_M_SAW"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_200rnd_556x45_M_SAW", 3] call CATD_fnc_addItemTo;
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
@@ -56,8 +56,8 @@ if (_camo == "US_MC_MARPAT_W") then {
 if (_camo == "US_MC_MARPAT_D") then {
     ["rhs_uniform_FROG01_d", "rhsusf_spc_iar", "rhsusf_assault_eagleaiii_coy_CATD", "rhsusf_lwh_helmet_marpatd_ess"] call CATD_fnc_Outfit;
     ["rhs_weap_m249_pip_L", "rhsusf_acc_ELCAN"] call CATD_fnc_addWeapon;
-    ["vest", "rhs_200rnd_556x56_M_SAW"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_200rnd_556x56_M_SAW", 3] call CATD_fnc_addItemTo;
+    ["vest", "rhs_200rnd_556x45_M_SAW"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_200rnd_556x45_M_SAW", 3] call CATD_fnc_addItemTo;
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
