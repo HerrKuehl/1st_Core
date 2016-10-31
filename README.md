@@ -8,7 +8,3 @@ Einheitensammlung der 1st CATD. Fügt über 3DEN platzierbare Einheiten und Fahr
 # 1st_Logistics
 
 Sammlung von Anpassungen für die Logistik der 1st CATD. Fügt momentan vorgefertigte Versorgungsgüter hinzu.
-
-# 1st_Equipment
-
-Scriptsammlung zur Ausgabe der angepassten Ausrüstung.
