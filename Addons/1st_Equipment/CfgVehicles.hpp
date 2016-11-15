@@ -56,7 +56,7 @@ class CfgVehicles
                         {
                             condition = "";
                             displayName = "IR Stroboskop";
-                            statement = "[nil, 'ACE_IR_Strobe_Item'] call CATD_fnc_addItemTo;";
+                            statement = "['_player', nil, 'ACE_IR_Strobe_Item'] call CATD_fnc_addItemToUnit;";
                         };
                     };
                     class Attachments

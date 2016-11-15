@@ -64,6 +64,7 @@ if (_camo == "PMC") then {
 };
 
 call CATD_fnc_Gear_BasicMedical;
+_unit linkItem "ItemGPS";
 ["Rangefinder"] call CATD_fnc_addWeapon;
 
 ["uniform", "ACE_MapTools"] call CATD_fnc_addItemTo;

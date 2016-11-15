@@ -15,7 +15,7 @@
  * Public: No
  */
 
- params ["_weapon", "_optic"];
+params ["_weapon", "_optic"];
 
 _unit addWeapon _weapon;
 if (!isNil "_optic") then {

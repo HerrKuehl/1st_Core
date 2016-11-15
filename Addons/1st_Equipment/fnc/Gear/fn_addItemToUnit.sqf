@@ -3,20 +3,21 @@
  * Adds Items to selected Container.
  *
  * Arguments:
- * 0: Container <STRING>
- * 1: Item <STRING>
- * 2: Count <NUMBER>
+ * 0: Unit <OBJECT>
+ * 1: Container <STRING>
+ * 2: Item <STRING>
+ * 3: Count <NUMBER>
  *
  * Return Value:
  * NONE
  *
  * Example:
- * ["vest", "NVGoggles", 3] call CATD_fnc_addItemTo;
+ * [player, "vest", "NVGoggles", 3] call CATD_fnc_addItemTo;
  *
  * Public: No
  */
 
-params ["_container", "_item", ["_count", 1]];
+params ["_unit", "_container", "_item", ["_count", 1]];
 
 switch (_container) do {
     case ("uniform"): {
