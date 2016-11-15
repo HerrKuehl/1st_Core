@@ -126,3 +126,5 @@ call CATD_fnc_Gear_BasicMedical;
 _unit linkItem "ItemGPS";
 ["Binocular"] call CATD_fnc_addWeapon;
 ["uniform", "ACE_MapTools"] call CATD_fnc_addItemTo;
+["backpack", "ACE_SpraypaintRed"] call CATD_fnc_addItemTo;
+["backpack", "ACE_SpraypaintGreen"] call CATD_fnc_addItemTo;
