@@ -66,9 +66,9 @@ if (_camo == "US_MC_MARPAT_D") then {
 };
 if (_camo == "BAF_BA_MTP") then {
     ["UK3CB_BAF_U_CombatUniform_MTP", "UK3CB_BAF_V_Osprey_MG_B", "UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C", "UK3CB_BAF_H_Mk7_Camo_ESS_A"] call CATD_fnc_Outfit;
-    ["UK3CB_BAF_L110A2_762", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
+    ["UK3CB_BAF_L110_762", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "UK3CB_BAF_762_100Rnd"] call CATD_fnc_addItemTo;
-    ["backpack", "UK3CB_BAF_762_100Rnd", 3] call CATD_fnc_addItemTo;
+    ["backpack", "UK3CB_BAF_762_100Rnd", 2] call CATD_fnc_addItemTo;
     ["UK3CB_BAF_L131A1"] call CATD_fnc_addWeapon;
     ["vest", "UK3CB_BAF_9_17Rnd", 2] call CATD_fnc_addItemTo;
 
