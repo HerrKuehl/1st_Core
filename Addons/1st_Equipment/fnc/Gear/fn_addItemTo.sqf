@@ -16,7 +16,7 @@
  * Public: No
  */
 
- params ["_container", "_item", ["_count", 1]];
+params ["_container", "_item", ["_count", 1]];
 
 switch (_container) do {
     case ("uniform"): {
