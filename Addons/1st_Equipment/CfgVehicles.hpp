@@ -66,7 +66,7 @@ class CfgVehicles
                         statement = "";
                         class Attachment_Silencer
                         {
-                            condition = "";
+                            condition = "CATD_Silencer";
                             displayName = "Schalldämpfer ausrüsten";
                             statement = "[_player, 'silencer'] call CATD_fnc_Attachment;";
                         };
