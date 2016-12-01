@@ -35,7 +35,7 @@ if (_attachment == "laser") then {
         hint "Kein passendes Anbauteil vorhanden!";
     };
     if ((primaryWeapon _unit) isKindof ["hlc_g36_base", configFile >> "CfgWeapons"]) then {
-        hint "Kein passendes Anbauteil vorhanden!";
+        _unit addPrimaryWeaponItem "acc_pointer_IR";
     };
     if ((primaryWeapon _unit) isKindof ["UK3CB_BAF_L85A2", configFile >> "CfgWeapons"]) then {
         hint "Kein passendes Anbauteil vorhanden!";
@@ -59,7 +59,7 @@ if (_attachment == "flashlight") then {
         hint "Kein passendes Anbauteil vorhanden!";
     };
     if ((primaryWeapon _unit) isKindof ["hlc_g36_base", configFile >> "CfgWeapons"]) then {
-        hint "Kein passendes Anbauteil vorhanden!";
+        _unit addPrimaryWeaponItem "acc_flashlight";
     };
     if ((primaryWeapon _unit) isKindof ["UK3CB_BAF_L85A2", configFile >> "CfgWeapons"]) then {
         hint "Kein passendes Anbauteil vorhanden!";
