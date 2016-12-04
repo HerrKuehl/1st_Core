@@ -51,7 +51,7 @@ if (_camo == "US_A_UCP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_W") then {
-    ["rhs_uniform_FROG01_wd", "rhsusf_spc_corpsman", "rhsusf_assault_eagleaii_coy_CATD", "rhsusf_lwh_helmet_marpatwd"] call CATD_fnc_Outfit;
+    ["rhs_uniform_FROG01_wd", "rhsusf_spc_corpsman", "rhsusf_assault_eagleaiii_coy_CATD", "rhsusf_lwh_helmet_marpatwd"] call CATD_fnc_Outfit;
     ["rhs_weap_m16a4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
