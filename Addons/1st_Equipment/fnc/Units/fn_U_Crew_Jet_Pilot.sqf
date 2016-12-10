@@ -62,22 +62,6 @@ if (_camo == "PMC") then {
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
-if (_camo == "RU_EMR_S") then {
-    ["rhs_uniform_df15", "rhs_vydra_3m", nil, "rhs_zsh7a_alt"] call CATD_fnc_Outfit;
-    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
-    ["vest", "16Rnd_9x21_Mag", 3] call CATD_fnc_addItemTo;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
-if (_camo == "RU_EMR_W") then {
-    ["rhs_uniform_df15_tan", "rhs_vydra_3m", nil, "rhs_zsh7a_alt"] call CATD_fnc_Outfit;
-    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
-    ["vest", "16Rnd_9x21_Mag", 3] call CATD_fnc_addItemTo;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
 
 call CATD_fnc_Gear_BasicMedical;
 _unit linkItem "ItemGPS";

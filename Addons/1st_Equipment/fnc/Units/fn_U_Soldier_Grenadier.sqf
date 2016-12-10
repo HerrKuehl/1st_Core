@@ -126,38 +126,6 @@ if (_camo == "PMC") then {
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
-if (_camo == "RU_EMR_S") then {
-    ["rhs_uniform_emr_patchless", "rhs_6b23_digi_6sh92_vog", "rhs_assault_umbts", "rhs_6b27m_green"] call CATD_fnc_Outfit;
-    ["rhs_weap_ak74m_gp25", nil] call CATD_fnc_addWeapon;
-    ["vest", "rhs_30Rnd_545x39_7N10_AK", 6] call CATD_fnc_addItemTo;
-    ["vest", "rhs_30Rnd_545x39_AK_green", 4] call CATD_fnc_addItemTo;
-    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
-    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
-
-    ["backpack", "rhs_VOG25", 10] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_white", 4] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_red"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_green"] call CATD_fnc_addItemTo;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
-if (_camo == "RU_EMR_W") then {
-    ["rhs_uniform_emr_des_patchless", "rhs_6b23_digi_6sh92_vog", "rhs_assault_umbts", "rhs_6b27m_green"] call CATD_fnc_Outfit;
-    ["rhs_weap_ak74m_gp25", nil] call CATD_fnc_addWeapon;
-    ["vest", "rhs_30Rnd_545x39_7N10_AK", 6] call CATD_fnc_addItemTo;
-    ["vest", "rhs_30Rnd_545x39_AK_green", 4] call CATD_fnc_addItemTo;
-    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
-    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
-
-    ["backpack", "rhs_VOG25", 10] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_white", 4] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_red"] call CATD_fnc_addItemTo;
-    ["backpack", "rhs_VG40OP_green"] call CATD_fnc_addItemTo;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
 
 call CATD_fnc_Gear_BasicMedical;
 ["Binocular"] call CATD_fnc_addWeapon;

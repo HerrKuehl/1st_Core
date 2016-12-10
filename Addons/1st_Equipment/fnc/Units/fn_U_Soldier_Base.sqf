@@ -46,17 +46,5 @@ if (_camo == "PMC") then {
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
-if (_camo == "RU_EMR_S") then {
-    ["rhs_uniform_emr_patchless", "rhs_6b23_digi_6sh92"] call CATD_fnc_Outfit;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
-if (_camo == "RU_EMR_W") then {
-    ["rhs_uniform_emr_des_patchless", "rhs_6b23_digi_6sh92"] call CATD_fnc_Outfit;
-
-    _unit linkItem "tf_fadak";
-    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
-};
 
 call CATD_fnc_Gear_BasicMedical;

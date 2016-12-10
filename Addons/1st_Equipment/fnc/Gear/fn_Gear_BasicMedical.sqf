@@ -18,4 +18,3 @@
 ["uniform", "ACE_epinephrine"] call CATD_fnc_addItemTo;
 ["uniform", "ACE_morphine", 3] call CATD_fnc_addItemTo;
 ["uniform", "ACE_fieldDressing", 10] call CATD_fnc_addItemTo;
-["uniform", "ACE_CableTie", 3] call CATD_fnc_addItemTo;

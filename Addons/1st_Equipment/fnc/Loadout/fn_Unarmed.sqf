@@ -111,38 +111,6 @@ if (_faction == "CATD_Faction_B_07") then {
     };
 };
 
-// REDFOR
-// Streitkräfte Russlands (EMR-Sommer)
-if (_faction == "CATD_Faction_O_01") then {
-    if ((_unitclass find "crew_tank") >= 0) then {
-        ["rhs_uniform_emr_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if ((_unitclass find "crew_heli") >= 0) then {
-        ["rhs_uniform_emr_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if ((_unitclass find "crew_jet") >= 0) then {
-        ["rhs_uniform_emr_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if (((_unitclass find "crew_heli") == -1) && ((_unitclass find "crew_tank") == -1) && ((_unitclass find "crew_jet") == -1)) then {
-        ["rhs_uniform_emr_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-};
-// Streitkräfte Russlands (EMR-Sommer)
-if (_faction == "CATD_Faction_O_02") then {
-    if ((_unitclass find "crew_tank") >= 0) then {
-        ["rhs_uniform_emr_des_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if ((_unitclass find "crew_heli") >= 0) then {
-        ["rhs_uniform_emr_des_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if ((_unitclass find "crew_jet") >= 0) then {
-        ["rhs_uniform_emr_des_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-    if (((_unitclass find "crew_heli") == -1) && ((_unitclass find "crew_tank") == -1) && ((_unitclass find "crew_jet") == -1)) then {
-        ["rhs_uniform_emr_des_patchless", nil, nil, "rhs_fieldcap_digi"] call CATD_fnc_Outfit;
-    };
-};
-
 // GREENFOR
 // Private Military Company
 if (_faction == "CATD_Faction_I_01") then {
