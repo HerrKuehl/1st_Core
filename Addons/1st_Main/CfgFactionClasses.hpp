@@ -51,8 +51,14 @@ class CfgFactionClasses
 
     class CATD_Faction_O_01
     {
-        displayName = "UNGENUTZT";
+        displayName = "CATD Streitkräfte Russlands (EMR-Sommer)";
         priority = 1000;
+        side = 0;
+    };
+    class CATD_Faction_O_02
+    {
+        displayName = "CATD Streitkräfte Russlands (EMR-Wüste)";
+        priority = 999;
         side = 0;
     };
 

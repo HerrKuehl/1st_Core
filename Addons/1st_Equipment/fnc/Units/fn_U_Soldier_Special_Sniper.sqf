@@ -82,6 +82,16 @@ if (_camo == "PMC") then {
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
+if (_camo == "RU_EMR_S") then {
+    [nil, nil, nil, nil, nil] call CATD_fnc_Outfit;
+
+    _unit linkItem "";
+};
+if (_camo == "RU_EMR_W") then {
+    [nil, nil, nil, nil, nil] call CATD_fnc_Outfit;
+
+    _unit linkItem "";
+};
 
 call CATD_fnc_Gear_BasicMedical;
 _unit linkItem "ItemGPS";

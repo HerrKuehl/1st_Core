@@ -371,7 +371,95 @@ class CfgPatches
 
             "CATD_PMC_Soldier_Special_Base",
             "CATD_PMC_Soldier_Special_Sniper",
-            "CATD_PMC_Soldier_Special_Spotter"
+            "CATD_PMC_Soldier_Special_Spotter",
+
+            // Streitkräfte Russlands (EMR-Sommer)
+
+            "CATD_RU_EMR_S_Soldier_Base",
+
+            "CATD_RU_EMR_S_Soldier_PlatoonCommander",
+            "CATD_RU_EMR_S_Soldier_PlatoonSergeant",
+            "CATD_RU_EMR_S_Soldier_SquadLeader",
+            "CATD_RU_EMR_S_Soldier_TeamLeader",
+
+            "CATD_RU_EMR_S_Soldier_UAV_Operator",
+            "CATD_RU_EMR_S_Soldier_RATELO",
+            "CATD_RU_EMR_S_Soldier_JTAC",
+            "CATD_RU_EMR_S_Soldier_Medic",
+            "CATD_RU_EMR_S_Soldier_CFR",
+            "CATD_RU_EMR_S_Soldier_Engineer",
+            "CATD_RU_EMR_S_Soldier_ExplosiveSpecialist",
+            "CATD_RU_EMR_S_Soldier_ExplosiveOrdnanceDisposal",
+            "CATD_RU_EMR_S_Soldier_Logistician",
+
+            "CATD_RU_EMR_S_Crew_Base",
+
+            "CATD_RU_EMR_S_Crew_Tank_Commander",
+            "CATD_RU_EMR_S_Crew_Tank_Gunner",
+            "CATD_RU_EMR_S_Crew_Tank_Loader",
+            "CATD_RU_EMR_S_Crew_Tank_Driver",
+            "CATD_RU_EMR_S_Crew_Heli_Pilot",
+            "CATD_RU_EMR_S_Crew_Heli_Crew",
+            "CATD_RU_EMR_S_Crew_Jet_Pilot",
+            "CATD_RU_EMR_S_Crew_Jet_WSO",
+
+            "CATD_RU_EMR_S_Soldier_Rifleman",
+            "CATD_RU_EMR_S_Soldier_AutomaticRifleman",
+            "CATD_RU_EMR_S_Soldier_MachineGunner",
+            "CATD_RU_EMR_S_Soldier_AssistantMachineGunner",
+            "CATD_RU_EMR_S_Soldier_Grenadier",
+            "CATD_RU_EMR_S_Soldier_RiflemanAT",
+            "CATD_RU_EMR_S_Soldier_AntiarmorGunner",
+            "CATD_RU_EMR_S_Soldier_AssistantAntiarmorGunner",
+            "CATD_RU_EMR_S_Soldier_Marksman",
+
+            "CATD_RU_EMR_S_Soldier_Special_Base",
+            "CATD_RU_EMR_S_Soldier_Special_Sniper",
+            "CATD_RU_EMR_S_Soldier_Special_Spotter",
+
+            // Streitkräfte Russlands (EMR-Wüste)
+
+            "CATD_RU_EMR_W_Soldier_Base",
+
+            "CATD_RU_EMR_W_Soldier_PlatoonCommander",
+            "CATD_RU_EMR_W_Soldier_PlatoonSergeant",
+            "CATD_RU_EMR_W_Soldier_SquadLeader",
+            "CATD_RU_EMR_W_Soldier_TeamLeader",
+
+            "CATD_RU_EMR_W_Soldier_UAV_Operator",
+            "CATD_RU_EMR_W_Soldier_RATELO",
+            "CATD_RU_EMR_W_Soldier_JTAC",
+            "CATD_RU_EMR_W_Soldier_Medic",
+            "CATD_RU_EMR_W_Soldier_CFR",
+            "CATD_RU_EMR_W_Soldier_Engineer",
+            "CATD_RU_EMR_W_Soldier_ExplosiveSpecialist",
+            "CATD_RU_EMR_W_Soldier_ExplosiveOrdnanceDisposal",
+            "CATD_RU_EMR_W_Soldier_Logistician",
+
+            "CATD_RU_EMR_W_Crew_Base",
+
+            "CATD_RU_EMR_W_Crew_Tank_Commander",
+            "CATD_RU_EMR_W_Crew_Tank_Gunner",
+            "CATD_RU_EMR_W_Crew_Tank_Loader",
+            "CATD_RU_EMR_W_Crew_Tank_Driver",
+            "CATD_RU_EMR_W_Crew_Heli_Pilot",
+            "CATD_RU_EMR_W_Crew_Heli_Crew",
+            "CATD_RU_EMR_W_Crew_Jet_Pilot",
+            "CATD_RU_EMR_W_Crew_Jet_WSO",
+
+            "CATD_RU_EMR_W_Soldier_Rifleman",
+            "CATD_RU_EMR_W_Soldier_AutomaticRifleman",
+            "CATD_RU_EMR_W_Soldier_MachineGunner",
+            "CATD_RU_EMR_W_Soldier_AssistantMachineGunner",
+            "CATD_RU_EMR_W_Soldier_Grenadier",
+            "CATD_RU_EMR_W_Soldier_RiflemanAT",
+            "CATD_RU_EMR_W_Soldier_AntiarmorGunner",
+            "CATD_RU_EMR_W_Soldier_AssistantAntiarmorGunner",
+            "CATD_RU_EMR_W_Soldier_Marksman",
+
+            "CATD_RU_EMR_W_Soldier_Special_Base",
+            "CATD_RU_EMR_W_Soldier_Special_Sniper",
+            "CATD_RU_EMR_W_Soldier_Special_Spotter"
         };
         weapons[] = {};
     };

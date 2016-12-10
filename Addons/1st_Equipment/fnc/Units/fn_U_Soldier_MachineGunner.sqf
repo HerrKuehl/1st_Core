@@ -1,8 +1,8 @@
 if (_camo == "BW_F") then {
     ["BWA3_Uniform2_Fleck", "BWA3_Vest_Autorifleman_Fleck", "BWA3_TacticalPack_Fleck", "BWA3_M92_Fleck"] call CATD_fnc_Outfit;
-    ["BWA3_MG5", "BWA3_optic_ZO4x30"] call CATD_fnc_addWeapon;
-    ["vest", "BWA3_120Rnd_762x51"] call CATD_fnc_addItemTo;
-    ["backpack", "BWA3_120Rnd_762x51", 3] call CATD_fnc_addItemTo;
+    ["hlc_lmg_MG3"] call CATD_fnc_addWeapon;
+    ["vest", "hlc_100Rnd_762x51_M_MG3"] call CATD_fnc_addItemTo;
+    ["backpack", "hlc_100Rnd_762x51_M_MG3", 3] call CATD_fnc_addItemTo;
     ["BWA3_P8"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_15Rnd_9x19_P8", 2] call CATD_fnc_addItemTo;
 
@@ -11,9 +11,9 @@ if (_camo == "BW_F") then {
 };
 if (_camo == "BW_T") then {
     ["BWA3_Uniform2_Tropen", "BWA3_Vest_Autorifleman_Tropen", "BWA3_TacticalPack_Tropen", "BWA3_M92_Tropen"] call CATD_fnc_Outfit;
-    ["BWA3_MG5", "BWA3_optic_ZO4x30"] call CATD_fnc_addWeapon;
-    ["vest", "BWA3_120Rnd_762x51"] call CATD_fnc_addItemTo;
-    ["backpack", "BWA3_120Rnd_762x51", 3] call CATD_fnc_addItemTo;
+    ["hlc_lmg_MG3"] call CATD_fnc_addWeapon;
+    ["vest", "hlc_100Rnd_762x51_M_MG3"] call CATD_fnc_addItemTo;
+    ["backpack", "hlc_100Rnd_762x51_M_MG3", 3] call CATD_fnc_addItemTo;
     ["BWA3_P8"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_15Rnd_9x19_P8", 2] call CATD_fnc_addItemTo;
 
@@ -85,6 +85,28 @@ if (_camo == "PMC") then {
 
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
+};
+if (_camo == "RU_EMR_S") then {
+    ["rhs_uniform_emr_patchless", "rhs_6b23_digi_6sh92_radio", "B_TacticalPack_oli", "rhs_6b27m_digi_ess"] call CATD_fnc_Outfit;
+    ["rhs_weap_pkp", nil] call CATD_fnc_addWeapon;
+    ["vest", "rhs_100Rnd_762x54mmR"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_100Rnd_762x54mmR", 2] call CATD_fnc_addItemTo;
+    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_fadak";
+    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
+};
+if (_camo == "RU_EMR_W") then {
+    ["rhs_uniform_emr_des_patchless", "rhs_6b23_digi_6sh92_radio", "B_TacticalPack_oli", "rhs_6b27m_digi_ess"] call CATD_fnc_Outfit;
+    ["rhs_weap_pkp", nil] call CATD_fnc_addWeapon;
+    ["vest", "rhs_100Rnd_762x54mmR"] call CATD_fnc_addItemTo;
+    ["backpack", "rhs_100Rnd_762x54mmR", 2] call CATD_fnc_addItemTo;
+    ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
+    ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_fadak";
+    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 
 call CATD_fnc_Gear_BasicMedical;

@@ -123,7 +123,7 @@ class CfgVehicles
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36, 25);
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36_Tracer, 10);
             MACRO_ADDMAGAZINE(BWA3_200Rnd_556x45, 8);
-            MACRO_ADDMAGAZINE(BWA3_120Rnd_762x51, 8);
+            MACRO_ADDMAGAZINE(hlc_100Rnd_762x51_M_MG3, 8);
             MACRO_ADDMAGAZINE(hlc_20rnd_762x51_b_G3, 6);
             MACRO_ADDMAGAZINE(BWA3_DM51A1, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
