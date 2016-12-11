@@ -56,19 +56,19 @@ class CfgVehicles
                         {
                             condition = "";
                             displayName = "IR Stroboskop";
-                            statement = "[_player, nil, 'ACE_IR_Strobe_Item'] call CATD_fnc_addItemToUnit;";
+                            statement = "[_player, 'uniform', 'ACE_IR_Strobe_Item'] call CATD_fnc_addItemToUnit;";
                         };
                         class GPS
                         {
                             condition = "CATD_GPS";
                             displayName = "MicroDAGR";
-                            statement = "[_player, nil , 'ACE_microDAGR'] call CATD_fnc_addItemToUnit;";
+                            statement = "[_player, 'uniform', 'ACE_microDAGR'] call CATD_fnc_addItemToUnit;";
                         };
                         class DAGR
                         {
                             condition = "CATD_GPS";
                             displayName = "DAGR";
-                            statement = "[_player, nil, 'ACE_DAGR'] call CATD_fnc_addItemToUnit;";
+                            statement = "[_player, 'uniform', 'ACE_DAGR'] call CATD_fnc_addItemToUnit;";
                         };
                     };
                     class Attachments
@@ -225,13 +225,13 @@ class CfgVehicles
                     {
                         condition = "true";
                         displayName = "Freigabe Schalldämpfer umschalten";
-                        statement = "CATD_Silencer = !CATD_Silencer; publicVariable 'CATD_Silencer'; hint format ['Freigabe umgeschaltet: %1', ['DEACTIVATED', 'ACTIVATED'] select CATD_Silencer];"
+                        statement = "CATD_Silencer = !CATD_Silencer; publicVariable 'CATD_Silencer'; hint format ['Freigabe umgeschaltet: %1', ['DEACTIVATED', 'ACTIVATED'] select CATD_Silencer];";
                     };
                     class Admin_GPS
                     {
                         condition = "true";
                         displayName = "Freigabe GPS umschalten";
-                        statement = "CATD_GPS = !CATD_GPS; publicVariable 'CATD_GPS'; hint format ['Freigabe umgeschaltet: %1', ['DEACTIVATED', 'ACTIVATED'] select CATD_GPS];"
+                        statement = "CATD_GPS = !CATD_GPS; publicVariable 'CATD_GPS'; hint format ['Freigabe umgeschaltet: %1', ['DEACTIVATED', 'ACTIVATED'] select CATD_GPS];";
                     };
                 };
             };

@@ -24,6 +24,7 @@ if (_attachment == "silencer") then {
     };
     if ((primaryWeapon _unit) isKindof ["rhs_weap_ak74m_Base_F", configFile >> "CfgWeapons"]) then {
         _unit addPrimaryWeaponItem "rhs_acc_dtk4short";
+        ["uniform", "rhs_acc_dtk"] call CATD_fnc_addItemTo;
     };
 };
 
