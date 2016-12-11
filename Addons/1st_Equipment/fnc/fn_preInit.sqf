@@ -7,6 +7,12 @@ if (isNil "CATD_Spectator") then {
 if (isNil "CATD_Nightvision") then {
     CATD_Nightvision = true;
 };
+if (isNil "CATD_GPS") then {
+    CATD_GPS = false;
+};
+if (isNil "CATD_Silencer") then {
+    CATD_Silencer = false;
+};
 if (isNil "CATD_Initial_Equipment") then {
     CATD_Initial_Equipment = false;
 };

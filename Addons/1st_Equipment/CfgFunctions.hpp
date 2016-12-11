@@ -18,6 +18,7 @@ class CfgFunctions {
             class Outfit {};
 
             class addItemTo {};
+            class addItemToUnit {};
             class addWeapon {};
 
             class Gear_BasicMedical {};

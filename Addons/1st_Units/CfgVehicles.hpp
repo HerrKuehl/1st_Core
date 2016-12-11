@@ -18,6 +18,9 @@ class CfgVehicles
 
 #include "Factions\GREEN_F\PMC.hpp"
 
+#include "Factions\RED_F\RU_EMR_S.hpp"
+#include "Factions\RED_F\RU_EMR_W.hpp"
+
 };
 
 // Vehicles
