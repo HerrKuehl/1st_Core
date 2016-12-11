@@ -870,4 +870,216 @@ switch (_unitclass) do {
     case ("CATD_PMC_Soldier_Special_Spotter"): {
         ["PMC", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
+    //Streitkräfte Russlands (EMR-Sommer)
+    case ("CATD_RU_EMR_S_Soldier_Base"): {
+        ["RU_EMR_S", "Soldier_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_PlatoonCommander"): {
+        ["RU_EMR_S", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_PlatoonSergeant"): {
+        ["RU_EMR_S", "Soldier_PlatoonSergeant"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_SquadLeader"): {
+        ["RU_EMR_S", "Soldier_SquadLeader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_TeamLeader"): {
+        ["RU_EMR_S", "Soldier_TeamLeader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_UAV_Operator"): {
+        ["RU_EMR_S", "Soldier_UAV_Operator"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_RATELO"): {
+        ["RU_EMR_S", "Soldier_RATELO"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_JTAC"): {
+        ["RU_EMR_S", "Soldier_JTAC"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Medic"): {
+        ["RU_EMR_S", "Soldier_Medic"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_CFR"): {
+        ["RU_EMR_S", "Soldier_CFR"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Engineer"): {
+        ["RU_EMR_S", "Soldier_Engineer"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_ExplosiveSpecialist"): {
+        ["RU_EMR_S", "Soldier_ExplosiveSpecialist"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_ExplosiveOrdnanceDisposal"): {
+        ["RU_EMR_S", "Soldier_ExplosiveOrdnanceDisposal"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Logistician"): {
+        ["RU_EMR_S", "Soldier_Logistician"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Base"): {
+        ["RU_EMR_S", "Crew_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Tank_Commander"): {
+        ["RU_EMR_S", "Crew_Tank_Commander"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Tank_Gunner"): {
+        ["RU_EMR_S", "Crew_Tank_Gunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Tank_Loader"): {
+        ["RU_EMR_S", "Crew_Tank_Loader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Tank_Driver"): {
+        ["RU_EMR_S", "Crew_Tank_Driver"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Heli_Pilot"): {
+        ["RU_EMR_S", "Crew_Heli_Pilot"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Heli_Crew"): {
+        ["RU_EMR_S", "Crew_Heli_Crew"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Jet_Pilot"): {
+        ["RU_EMR_S", "Crew_Jet_Pilot"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Crew_Jet_WSO"): {
+        ["RU_EMR_S", "Crew_Jet_WSO"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Rifleman"): {
+        ["RU_EMR_S", "Soldier_Rifleman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_AutomaticRifleman"): {
+        ["RU_EMR_S", "Soldier_AutomaticRifleman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_MachineGunner"): {
+        ["RU_EMR_S", "Soldier_MachineGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_AssistantMachineGunner"): {
+        ["RU_EMR_S", "AssistantMachineGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Grenadier"): {
+        ["RU_EMR_S", "Soldier_Grenadier"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_RiflemanLAT"): {
+        ["RU_EMR_S", "Soldier_RiflemanLAT"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_AntiarmorGunner"): {
+        ["RU_EMR_S", "Soldier_AntiarmorGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_AssistantAntiarmorGunner"): {
+        ["RU_EMR_S", "Soldier_AssistantAntiarmorGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Marksman"): {
+        ["RU_EMR_S", "Soldier_Marksman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Special_Base"): {
+        ["RU_EMR_S", "Soldier_Special_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Special_Sniper"): {
+        ["RU_EMR_S", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_S_Soldier_Special_Spotter"): {
+        ["RU_EMR_S", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
+    };
+    //Streitkräfte Russlands (EMR-Wüste)
+    case ("CATD_RU_EMR_W_Soldier_Base"): {
+        ["RU_EMR_W", "Soldier_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_PlatoonCommander"): {
+        ["RU_EMR_W", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_PlatoonSergeant"): {
+        ["RU_EMR_W", "Soldier_PlatoonSergeant"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_SquadLeader"): {
+        ["RU_EMR_W", "Soldier_SquadLeader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_TeamLeader"): {
+        ["RU_EMR_W", "Soldier_TeamLeader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_UAV_Operator"): {
+        ["RU_EMR_W", "Soldier_UAV_Operator"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_RATELO"): {
+        ["RU_EMR_W", "Soldier_RATELO"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_JTAC"): {
+        ["RU_EMR_W", "Soldier_JTAC"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Medic"): {
+        ["RU_EMR_W", "Soldier_Medic"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_CFR"): {
+        ["RU_EMR_W", "Soldier_CFR"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Engineer"): {
+        ["RU_EMR_W", "Soldier_Engineer"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_ExplosiveSpecialist"): {
+        ["RU_EMR_W", "Soldier_ExplosiveSpecialist"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_ExplosiveOrdnanceDisposal"): {
+        ["RU_EMR_W", "Soldier_ExplosiveOrdnanceDisposal"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Logistician"): {
+        ["RU_EMR_W", "Soldier_Logistician"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Base"): {
+        ["RU_EMR_W", "Crew_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Tank_Commander"): {
+        ["RU_EMR_W", "Crew_Tank_Commander"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Tank_Gunner"): {
+        ["RU_EMR_W", "Crew_Tank_Gunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Tank_Loader"): {
+        ["RU_EMR_W", "Crew_Tank_Loader"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Tank_Driver"): {
+        ["RU_EMR_W", "Crew_Tank_Driver"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Heli_Pilot"): {
+        ["RU_EMR_W", "Crew_Heli_Pilot"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Heli_Crew"): {
+        ["RU_EMR_W", "Crew_Heli_Crew"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Jet_Pilot"): {
+        ["RU_EMR_W", "Crew_Jet_Pilot"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Crew_Jet_WSO"): {
+        ["RU_EMR_W", "Crew_Jet_WSO"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Rifleman"): {
+        ["RU_EMR_W", "Soldier_Rifleman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_AutomaticRifleman"): {
+        ["RU_EMR_W", "Soldier_AutomaticRifleman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_MachineGunner"): {
+        ["RU_EMR_W", "Soldier_MachineGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_AssistantMachineGunner"): {
+        ["RU_EMR_W", "AssistantMachineGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Grenadier"): {
+        ["RU_EMR_W", "Soldier_Grenadier"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_RiflemanLAT"): {
+        ["RU_EMR_W", "Soldier_RiflemanLAT"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_AntiarmorGunner"): {
+        ["RU_EMR_W", "Soldier_AntiarmorGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_AssistantAntiarmorGunner"): {
+        ["RU_EMR_W", "Soldier_AssistantAntiarmorGunner"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Marksman"): {
+        ["RU_EMR_W", "Soldier_Marksman"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Special_Base"): {
+        ["RU_EMR_W", "Soldier_Special_Base"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Special_Sniper"): {
+        ["RU_EMR_W", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
+    };
+    case ("CATD_RU_EMR_W_Soldier_Special_Spotter"): {
+        ["RU_EMR_W", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
+    };
 };

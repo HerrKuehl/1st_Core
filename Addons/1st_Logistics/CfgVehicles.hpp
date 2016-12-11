@@ -123,7 +123,7 @@ class CfgVehicles
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36, 25);
             MACRO_ADDMAGAZINE(BWA3_30Rnd_556x45_G36_Tracer, 10);
             MACRO_ADDMAGAZINE(BWA3_200Rnd_556x45, 8);
-            MACRO_ADDMAGAZINE(BWA3_120Rnd_762x51, 8);
+            MACRO_ADDMAGAZINE(hlc_100Rnd_762x51_M_MG3, 8);
             MACRO_ADDMAGAZINE(hlc_20rnd_762x51_b_G3, 6);
             MACRO_ADDMAGAZINE(BWA3_DM51A1, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
@@ -175,6 +175,29 @@ class CfgVehicles
             MACRO_ADDMAGAZINE(20Rnd_762x51_Mag, 6);
             MACRO_ADDMAGAZINE(HandGrenade, 5);
             MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell, 15);
+            MACRO_ADDMAGAZINE(SmokeShell, 5);
+            MACRO_ADDMAGAZINE(SmokeShellRed, 2);
+            MACRO_ADDMAGAZINE(SmokeShellBlue, 2);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_Ammo_RU: CATD_Box_Ammo {
+        scope = 2;
+        displayName = "[1st] Standardmunition RU";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {};
+        class TransportMagazines
+        {
+            MACRO_ADDMAGAZINE(rhs_30Rnd_545x39_7N10_AK, 25);
+            MACRO_ADDMAGAZINE(rhs_30Rnd_545x39_AK_green, 10);
+            MACRO_ADDMAGAZINE(rhs_45Rnd_545X39_7N10_AK, 8);
+            MACRO_ADDMAGAZINE(rhs_100Rnd_762x54mmR, 8);
+            MACRO_ADDMAGAZINE(rhs_10Rnd_762x54mmR_7N1, 6);
+            MACRO_ADDMAGAZINE(rhs_mag_rgn, 5);
+            MACRO_ADDMAGAZINE(rhs_VOG25, 15);
             MACRO_ADDMAGAZINE(SmokeShell, 5);
             MACRO_ADDMAGAZINE(SmokeShellRed, 2);
             MACRO_ADDMAGAZINE(SmokeShellBlue, 2);
@@ -237,6 +260,20 @@ class CfgVehicles
         class TransportMagazines
         {
             MACRO_ADDMAGAZINE(hlc_5rnd_300WM_FMJ_AWM, 10);
+            MACRO_ADDMAGAZINE(16Rnd_9x21_Mag, 8);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_AmmoSpecial_RU : CATD_Box_Ammo {
+        scope = 2;
+        displayName = "[1st] Sondermunition RU";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {};
+        class TransportMagazines
+        {
             MACRO_ADDMAGAZINE(16Rnd_9x21_Mag, 8);
         };
         class TransportBackpacks
@@ -311,6 +348,25 @@ class CfgVehicles
         {
             MACRO_ADDMAGAZINE(TITAN_AT, 3);
             MACRO_ADDMAGAZINE(rhs_fim92_mag, 3);
+        };
+        class TransportBackpacks
+        {};
+    };
+    class CATD_Box_Launcher_RU: CATD_Box_Launcher {
+        scope = 2;
+        displayName = "[1st] Werfer RU";
+        class TransportItems
+        {};
+        class TransportWeapons
+        {
+            MACRO_ADDWEAPON(rhs_weap_rpg26, 4);
+            MACRO_ADDWEAPON(rhs_weap_igla, 1);
+        };
+        class TransportMagazines
+        {
+            MACRO_ADDMAGAZINE(rhs_rpg7_PG7VR_mag, 2);
+            MACRO_ADDMAGAZINE(rhs_rpg7_PG7VL_mag, 1);
+            MACRO_ADDMAGAZINE(rhs_mag_9k38_rocket, 3);
         };
         class TransportBackpacks
         {};

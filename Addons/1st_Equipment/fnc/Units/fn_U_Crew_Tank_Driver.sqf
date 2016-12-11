@@ -1,15 +1,15 @@
 if (_camo == "BW_F") then {
     ["BWA3_Uniform_Crew_Fleck", "BWA3_Vest_Fleck", "BWA3_Kitbag_Fleck", "BWA3_CrewmanKSK_Fleck_Headset"] call CATD_fnc_Outfit;
-    ["BWA3_MP7", "BWA3_optic_RSAS"] call CATD_fnc_addWeapon;
-    ["vest", "BWA3_40Rnd_46x30_MP7", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_MP7A1_base_f", "BWA3_optic_RSAS"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_40Rnd_46x30_FMJ", 2] call CATD_fnc_addItemTo;
 
     _unit linkItem "tf_anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
     ["BWA3_Uniform_Crew_Tropen", "BWA3_Vest_Tropen", "BWA3_Kitbag_Tropen", "BWA3_CrewmanKSK_Tropen_Headset"] call CATD_fnc_Outfit;
-    ["BWA3_MP7", "BWA3_optic_RSAS"] call CATD_fnc_addWeapon;
-    ["vest", "BWA3_40Rnd_46x30_MP7", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_MP7A1_base_f", "BWA3_optic_RSAS"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_40Rnd_46x30_FMJ", 2] call CATD_fnc_addItemTo;
 
     _unit linkItem "tf_anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
@@ -62,8 +62,24 @@ if (_camo == "PMC") then {
     _unit linkItem "tf_anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
+if (_camo == "RU_EMR_S") then {
+    ["rhs_uniform_emr_patchless", "rhs_6b23_digi_crew", "rhs_assault_umbts_engineer_empty", "rhs_tsh4"] call CATD_fnc_Outfit;
+    ["rhs_weap_ak74m_dtk", nil] call CATD_fnc_addWeapon;
+    ["vest", "rhs_30Rnd_545x39_7N10_AK", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_fadak";
+    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
+};
+if (_camo == "RU_EMR_W") then {
+    ["rhs_uniform_emr_des_patchless", "rhs_6b23_digi_crew", "rhs_assault_umbts_engineer_empty", "rhs_tsh4"] call CATD_fnc_Outfit;
+    ["rhs_weap_ak74m_dtk", nil] call CATD_fnc_addWeapon;
+    ["vest", "rhs_30Rnd_545x39_7N10_AK", 2] call CATD_fnc_addItemTo;
+
+    _unit linkItem "tf_fadak";
+    ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
+};
 
 call CATD_fnc_Gear_BasicMedical;
 ["Binocular"] call CATD_fnc_addWeapon;
 
-["backpack", "ToolKit"] call CATD_addItemTo;
+["backpack", "ToolKit"] call CATD_fnc_addItemTo;

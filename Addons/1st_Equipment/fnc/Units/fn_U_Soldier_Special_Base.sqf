@@ -47,4 +47,5 @@ if (_camo == "PMC") then {
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 
+
 call CATD_fnc_Gear_BasicMedical;
