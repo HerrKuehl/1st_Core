@@ -84,7 +84,7 @@ switch (_unitclass) do {
         ["BW_F", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Soldier_AssistantMachineGunner"): {
-        ["BW_F", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["BW_F", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Soldier_Grenadier"): {
         ["BW_F", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -199,7 +199,7 @@ switch (_unitclass) do {
         ["BW_T", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_T_Soldier_AssistantMachineGunner"): {
-        ["BW_T", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["BW_T", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_T_Soldier_Grenadier"): {
         ["BW_T", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -314,7 +314,7 @@ switch (_unitclass) do {
         ["US_A_OCP", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_OCP_Soldier_AssistantMachineGunner"): {
-        ["US_A_OCP", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["US_A_OCP", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_OCP_Soldier_Grenadier"): {
         ["US_A_OCP", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -420,7 +420,7 @@ switch (_unitclass) do {
         ["US_A_UCP", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_UCP_Soldier_AssistantMachineGunner"): {
-        ["US_A_UCP", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["US_A_UCP", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_UCP_Soldier_Grenadier"): {
         ["US_A_UCP", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -526,7 +526,7 @@ switch (_unitclass) do {
         ["US_MC_MARPAT_W", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_W_Soldier_AssistantMachineGunner"): {
-        ["US_MC_MARPAT_W", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["US_MC_MARPAT_W", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_W_Soldier_Grenadier"): {
         ["US_MC_MARPAT_W", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -632,7 +632,7 @@ switch (_unitclass) do {
         ["US_MC_MARPAT_D", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_D_Soldier_AssistantMachineGunner"): {
-        ["US_MC_MARPAT_D", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["US_MC_MARPAT_D", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_D_Soldier_Grenadier"): {
         ["US_MC_MARPAT_D", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -738,7 +738,7 @@ switch (_unitclass) do {
         ["BAF_BA_MTP", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BAF_BA_MTP_Soldier_AssistantMachineGunner"): {
-        ["BAF_BA_MTP", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["BAF_BA_MTP", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_BAF_BA_MTP_Soldier_Grenadier"): {
         ["BAF_BA_MTP", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -844,7 +844,7 @@ switch (_unitclass) do {
         ["PMC", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_PMC_Soldier_AssistantMachineGunner"): {
-        ["PMC", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["PMC", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_PMC_Soldier_Grenadier"): {
         ["PMC", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -950,7 +950,7 @@ switch (_unitclass) do {
         ["RU_EMR_S", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_S_Soldier_AssistantMachineGunner"): {
-        ["RU_EMR_S", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["RU_EMR_S", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_S_Soldier_Grenadier"): {
         ["RU_EMR_S", "Soldier_Grenadier"] call CATD_fnc_Kit;
@@ -1056,7 +1056,7 @@ switch (_unitclass) do {
         ["RU_EMR_W", "Soldier_MachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_W_Soldier_AssistantMachineGunner"): {
-        ["RU_EMR_W", "AssistantMachineGunner"] call CATD_fnc_Kit;
+        ["RU_EMR_W", "Soldier_AssistantMachineGunner"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_W_Soldier_Grenadier"): {
         ["RU_EMR_W", "Soldier_Grenadier"] call CATD_fnc_Kit;
