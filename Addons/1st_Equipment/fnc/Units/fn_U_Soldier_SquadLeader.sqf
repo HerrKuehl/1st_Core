@@ -44,7 +44,7 @@ if (_camo == "US_A_OCP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_UCP") then {
-    ["rhs_uniform_cu_ucp", "rhsusf_iotv_ucp", "tf_rt1523g_green", "rhsusf_ach_helmet_headset_ess_ucp"] call CATD_fnc_Outfit;
+    ["rhs_uniform_cu_ucp", "rhsusf_iotv_ucp_Squadleader", "tf_rt1523g_green", "rhsusf_ach_helmet_headset_ess_ucp"] call CATD_fnc_Outfit;
     ["rhs_weap_m16a4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
