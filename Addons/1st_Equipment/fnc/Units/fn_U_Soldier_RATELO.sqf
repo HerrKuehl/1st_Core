@@ -43,7 +43,7 @@ if (_camo == "US_A_UCP") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_W") then {
-    ["rhs_uniform_FROG01_wd", "rhsusf_spc_squadleader", "tf_rt1523g_sage", "rhsusf_mich_helmet_marpatwd_headset"] call CATD_fnc_Outfit;
+    ["rhs_uniform_FROG01_wd", "rhsusf_spc_squadleader", "tfw_ilbe_wd", "rhsusf_mich_helmet_marpatwd_headset"] call CATD_fnc_Outfit;
     ["rhs_weap_m16a4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
@@ -54,7 +54,7 @@ if (_camo == "US_MC_MARPAT_W") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_D") then {
-    ["rhs_uniform_FROG01_d", "rhsusf_spc_squadleader", "tf_rt1523g_sage", "rhsusf_mich_helmet_marpatd_headset"] call CATD_fnc_Outfit;
+    ["rhs_uniform_FROG01_d", "rhsusf_spc_squadleader", "tfw_ilbe_d", "rhsusf_mich_helmet_marpatd_headset"] call CATD_fnc_Outfit;
     ["rhs_weap_m16a4_carryhandle", "rhsusf_acc_ACOG"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
