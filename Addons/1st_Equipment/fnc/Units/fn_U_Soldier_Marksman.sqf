@@ -80,7 +80,7 @@ if (_camo == "PMC") then {
 };
 if (_camo == "RU_EMR_S") then {
     ["rhs_uniform_emr_patchless", "rhs_6b23_digi_sniper", "rhs_assault_umbts", "rhs_6b27m_digi"] call CATD_fnc_Outfit;
-    ["rhs_weap_svdp_wd", nil] call CATD_fnc_addWeapon;
+    ["rhs_weap_svdp_wd", "rhs_acc_pso1m2"] call CATD_fnc_addWeapon;
     ["vest", "rhs_10Rnd_762x54mmR_7N1", 6] call CATD_fnc_addItemTo;
     ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
     ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
@@ -90,7 +90,7 @@ if (_camo == "RU_EMR_S") then {
 };
 if (_camo == "RU_EMR_W") then {
     ["rhs_uniform_emr_des_patchless", "rhs_6b23_digi_sniper", "rhs_assault_umbts", "rhs_6b27m_digi"] call CATD_fnc_Outfit;
-    ["rhs_weap_svdp_wd", nil] call CATD_fnc_addWeapon;
+    ["rhs_weap_svdp_wd", "rhs_acc_pso1m2"] call CATD_fnc_addWeapon;
     ["vest", "rhs_10Rnd_762x54mmR_7N1", 6] call CATD_fnc_addItemTo;
     ["hgun_Rook40_F"] call CATD_fnc_addWeapon;
     ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
