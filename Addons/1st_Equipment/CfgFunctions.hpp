@@ -21,6 +21,13 @@ class CfgFunctions {
             class addItemToUnit {};
             class addWeapon {};
 
+            class Gear_Basic {};
+            class Gear_T0_Medical {};
+            class Gear_T1_Medical {};
+            class Gear_T2_Medical {};
+            class Gear_T3_Medical {};
+
+            // Outdated
             class Gear_BasicMedical {};
             class Gear_SpecialMedical {};
         };
@@ -36,7 +43,6 @@ class CfgFunctions {
         class CATD_Units {
             file = "\x\1st_Core\addons\1st_Equipment\fnc\Units";
 
-            class U_Soldier_Base {};
             class U_Soldier_PlatoonCommander {};
             class U_Soldier_PlatoonSergeant {};
             class U_Soldier_SquadLeader {};
@@ -44,13 +50,13 @@ class CfgFunctions {
             class U_Soldier_UAV_Operator {};
             class U_Soldier_RATELO {};
             class U_Soldier_JTAC {};
+            class U_Soldier_Surgeon {};
             class U_Soldier_Medic {};
             class U_Soldier_CFR {};
             class U_Soldier_Engineer {};
             class U_Soldier_ExplosiveSpecialist {};
             class U_Soldier_ExplosiveOrdnanceDisposal {};
             class U_Soldier_Logistician {};
-            class U_Crew_Base {};
             class U_Crew_Tank_Commander {};
             class U_Crew_Tank_Gunner {};
             class U_Crew_Tank_Loader {};
@@ -68,7 +74,6 @@ class CfgFunctions {
             class U_Soldier_AntiarmorGunner {};
             class U_Soldier_AssistantAntiarmorGunner {};
             class U_Soldier_Marksman {};
-            class U_Soldier_Special_Base {};
             class U_Soldier_Special_Sniper {};
             class U_Soldier_Special_Spotter {};
             class U_Soldier_Ausbildung_Base {};

@@ -62,11 +62,17 @@
         displayName = "JTAC";
         icon = "iconMan";
     };
+    class CATD_BAF_BA_MTP_Soldier_Surgeon: CATD_BAF_BA_MTP_Soldier_Base
+    {
+        displayName = "Surgeon";
+        icon = "iconManMedic";
+        attendant = true;
+    };
     class CATD_BAF_BA_MTP_Soldier_Medic: CATD_BAF_BA_MTP_Soldier_Base
     {
         displayName = "Medic";
         icon = "iconManMedic";
-        attendant = 1;
+        attendant = true;
     };
     class CATD_BAF_BA_MTP_Soldier_CFR: CATD_BAF_BA_MTP_Soldier_Base
     {

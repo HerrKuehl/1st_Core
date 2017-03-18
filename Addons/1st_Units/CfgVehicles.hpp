@@ -5,6 +5,8 @@ class CfgVehicles
     class O_Soldier_base_F;
     class I_Soldier_base_F;
 
+// BLUFOR
+
 #include "Factions\BLU_F\BW_F.hpp"
 #include "Factions\BLU_F\BW_T.hpp"
 
@@ -16,7 +18,11 @@ class CfgVehicles
 
 #include "Factions\BLU_F\BAF_BA_MTP.hpp"
 
+// GREENFOR
+
 #include "Factions\GREEN_F\PMC.hpp"
+
+// REDFOR
 
 #include "Factions\RED_F\RU_EMR_S.hpp"
 #include "Factions\RED_F\RU_EMR_W.hpp"

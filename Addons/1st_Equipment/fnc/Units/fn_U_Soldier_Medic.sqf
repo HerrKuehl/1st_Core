@@ -1,5 +1,5 @@
 if (_camo == "BW_F") then {
-    ["BWA3_Uniform_Fleck", "BWA3_Vest_Medic_Fleck", "BWA3_Kitbag_Fleck_Medic", "BWA3_Booniehat_Fleck"] call CATD_fnc_Outfit;
+    ["PBW_Uniform4_fleck", "pbw_splitter_sani", "BWA3_Kitbag_Fleck_Medic", "PBW_Buschhut_fleck"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
@@ -12,7 +12,7 @@ if (_camo == "BW_F") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
-    ["BWA3_Uniform_Tropen", "BWA3_Vest_Medic_Tropen", "BWA3_Kitbag_Tropen_Medic", "BWA3_Booniehat_Tropen"] call CATD_fnc_Outfit;
+    ["PBW_Uniform4_tropen", "pbw_splitter_sani", "BWA3_Kitbag_Tropen_Medic", "PBW_Buschhut_fleck"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
@@ -29,8 +29,8 @@ if (_camo == "US_A_OCP") then {
     ["rhs_weap_m4_carryhandle"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
-    ["rhs_weap_m1911a1"] call CATD_fnc_addWeapon;
-    ["vest", "rhsusf_mag_7x45acp_MHP", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
     ["vest", "B_IR_Grenade"] call CATD_fnc_addItemTo;
 
@@ -42,8 +42,8 @@ if (_camo == "US_A_UCP") then {
     ["rhs_weap_m4_carryhandle"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
-    ["rhs_weap_m1911a1"] call CATD_fnc_addWeapon;
-    ["vest", "rhsusf_mag_7x45acp_MHP", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
     ["vest", "B_IR_Grenade"] call CATD_fnc_addItemTo;
 
@@ -55,8 +55,8 @@ if (_camo == "US_MC_MARPAT_W") then {
     ["rhs_weap_m16a4_carryhandle"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
-    ["rhs_weap_m1911a1"] call CATD_fnc_addWeapon;
-    ["vest", "rhsusf_mag_7x45acp_MHP", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
     ["vest", "B_IR_Grenade"] call CATD_fnc_addItemTo;
 
@@ -68,8 +68,8 @@ if (_camo == "US_MC_MARPAT_D") then {
     ["rhs_weap_m16a4_carryhandle"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 6] call CATD_fnc_addItemTo;
     ["vest", "30Rnd_556x45_Stanag_Tracer_red", 4] call CATD_fnc_addItemTo;
-    ["rhs_weap_m1911a1"] call CATD_fnc_addWeapon;
-    ["vest", "rhsusf_mag_7x45acp_MHP", 2] call CATD_fnc_addItemTo;
+    ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
+    ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
     ["vest", "B_IR_Grenade"] call CATD_fnc_addItemTo;
 
@@ -129,8 +129,9 @@ if (_camo == "RU_EMR_W") then {
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 
-call CATD_fnc_Gear_BasicMedical;
-call CATD_fnc_Gear_SpecialMedical;
+call CATD_fnc_Gear_Basic;
+call CATD_fnc_Gear_T0_Medical;
+call CATD_fnc_Gear_T2_Medical;
 _unit linkItem "ItemGPS";
 ["Binocular"] call CATD_fnc_addWeapon;
 

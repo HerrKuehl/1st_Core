@@ -79,5 +79,6 @@ if (_camo == "RU_EMR_W") then {
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 
-call CATD_fnc_Gear_BasicMedical;
+call CATD_fnc_Gear_Basic;
+call CATD_fnc_Gear_T0_Medical;
 ["Binocular"] call CATD_fnc_addWeapon;

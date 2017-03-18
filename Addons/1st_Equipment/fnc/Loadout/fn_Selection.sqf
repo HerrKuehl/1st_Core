@@ -5,9 +5,6 @@ private _unitclass = typeOf _unit;
 
 switch (_unitclass) do {
     // BW Fleck
-    case ("CATD_BW_F_Soldier_Base"): {
-        ["BW_F", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BW_F_Soldier_PlatoonCommander"): {
         ["BW_F", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -24,10 +21,13 @@ switch (_unitclass) do {
         ["BW_F", "Soldier_UAV_Operator"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Soldier_RATELO"): {
-        ["BW_F", "Soldier_UAV_RATELO"] call CATD_fnc_Kit;
+        ["BW_F", "Soldier_RATELO"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Soldier_JTAC"): {
         ["BW_F", "Soldier_JTAC"] call CATD_fnc_Kit;
+    };
+    case ("CATD_BW_F_Soldier_Surgeon"): {
+        ["BW_F", "Soldier_Surgeon"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Soldier_Medic"): {
         ["BW_F", "Soldier_Medic"] call CATD_fnc_Kit;
@@ -46,9 +46,6 @@ switch (_unitclass) do {
     };
     case ("CATD_BW_F_Soldier_Logistician"): {
         ["BW_F", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_BW_F_Crew_Base"): {
-        ["BW_F", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_F_Crew_Tank_Commander"): {
         ["BW_F", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -101,9 +98,6 @@ switch (_unitclass) do {
     case ("CATD_BW_F_Soldier_Marksman"): {
         ["BW_F", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_BW_F_Soldier_Special_Base"): {
-        ["BW_F", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BW_F_Soldier_Special_Sniper"): {
         ["BW_F", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -120,9 +114,6 @@ switch (_unitclass) do {
         ["BW_F", "Soldier_Ausbildung_Recruit"] call CATD_fnc_Kit;
     };
     // BW Tropen
-    case ("CATD_BW_T_Soldier_Base"): {
-        ["BW_T", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BW_T_Soldier_PlatoonCommander"): {
         ["BW_T", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -144,6 +135,9 @@ switch (_unitclass) do {
     case ("CATD_BW_T_Soldier_JTAC"): {
         ["BW_T", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_BW_T_Soldier_Surgeon"): {
+        ["BW_T", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_BW_T_Soldier_Medic"): {
         ["BW_T", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -161,9 +155,6 @@ switch (_unitclass) do {
     };
     case ("CATD_BW_T_Soldier_Logistician"): {
         ["BW_T", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_BW_T_Crew_Base"): {
-        ["BW_T", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_BW_T_Crew_Tank_Commander"): {
         ["BW_T", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -216,9 +207,6 @@ switch (_unitclass) do {
     case ("CATD_BW_T_Soldier_Marksman"): {
         ["BW_T", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_BW_T_Soldier_Special_Base"): {
-        ["BW_T", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BW_T_Soldier_Special_Sniper"): {
         ["BW_T", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -235,9 +223,6 @@ switch (_unitclass) do {
         ["BW_T", "Soldier_Ausbildung_Recruit"] call CATD_fnc_Kit;
     };
     // US Army OCP
-    case ("CATD_US_A_OCP_Soldier_Base"): {
-        ["US_A_OCP", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_A_OCP_Soldier_PlatoonCommander"): {
         ["US_A_OCP", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -259,6 +244,9 @@ switch (_unitclass) do {
     case ("CATD_US_A_OCP_Soldier_JTAC"): {
         ["US_A_OCP", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_US_A_OCP_Soldier_Surgeon"): {
+        ["US_A_OCP", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_US_A_OCP_Soldier_Medic"): {
         ["US_A_OCP", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -276,9 +264,6 @@ switch (_unitclass) do {
     };
     case ("CATD_US_A_OCP_Soldier_Logistician"): {
         ["US_A_OCP", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_US_A_OCP_Crew_Base"): {
-        ["US_A_OCP", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_OCP_Crew_Tank_Commander"): {
         ["US_A_OCP", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -331,9 +316,6 @@ switch (_unitclass) do {
     case ("CATD_US_A_OCP_Soldier_Marksman"): {
         ["US_A_OCP", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_US_A_OCP_Soldier_Special_Base"): {
-        ["US_A_OCP", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_A_OCP_Soldier_Special_Sniper"): {
         ["US_A_OCP", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -341,9 +323,6 @@ switch (_unitclass) do {
         ["US_A_OCP", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     // US Army UCP
-    case ("CATD_US_A_UCP_Soldier_Base"): {
-        ["US_A_UCP", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_A_UCP_Soldier_PlatoonCommander"): {
         ["US_A_UCP", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -365,6 +344,9 @@ switch (_unitclass) do {
     case ("CATD_US_A_UCP_Soldier_JTAC"): {
         ["US_A_UCP", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_US_A_UCP_Soldier_Surgeon"): {
+        ["US_A_UCP", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_US_A_UCP_Soldier_Medic"): {
         ["US_A_UCP", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -382,9 +364,6 @@ switch (_unitclass) do {
     };
     case ("CATD_US_A_UCP_Soldier_Logistician"): {
         ["US_A_UCP", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_US_A_UCP_Crew_Base"): {
-        ["US_A_UCP", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_US_A_UCP_Crew_Tank_Commander"): {
         ["US_A_UCP", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -437,9 +416,6 @@ switch (_unitclass) do {
     case ("CATD_US_A_UCP_Soldier_Marksman"): {
         ["US_A_UCP", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_US_A_UCP_Soldier_Special_Base"): {
-        ["US_A_UCP", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_A_UCP_Soldier_Special_Sniper"): {
         ["US_A_UCP", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -447,9 +423,6 @@ switch (_unitclass) do {
         ["US_A_UCP", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     // US Marine Corps MARPAT Woodland
-    case ("CATD_US_MC_MARPAT_W_Soldier_Base"): {
-        ["US_MC_MARPAT_W", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_MC_MARPAT_W_Soldier_PlatoonCommander"): {
         ["US_MC_MARPAT_W", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -471,6 +444,9 @@ switch (_unitclass) do {
     case ("CATD_US_MC_MARPAT_W_Soldier_JTAC"): {
         ["US_MC_MARPAT_W", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_US_MC_MARPAT_W_Soldier_Surgeon"): {
+        ["US_MC_MARPAT_W", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_US_MC_MARPAT_W_Soldier_Medic"): {
         ["US_MC_MARPAT_W", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -488,9 +464,6 @@ switch (_unitclass) do {
     };
     case ("CATD_US_MC_MARPAT_W_Soldier_Logistician"): {
         ["US_MC_MARPAT_W", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_US_MC_MARPAT_W_Crew_Base"): {
-        ["US_MC_MARPAT_W", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_W_Crew_Tank_Commander"): {
         ["US_MC_MARPAT_W", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -543,9 +516,6 @@ switch (_unitclass) do {
     case ("CATD_US_MC_MARPAT_W_Soldier_Marksman"): {
         ["US_MC_MARPAT_W", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_US_MC_MARPAT_W_Soldier_Special_Base"): {
-        ["US_MC_MARPAT_W", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_MC_MARPAT_W_Soldier_Special_Sniper"): {
         ["US_MC_MARPAT_W", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -553,9 +523,6 @@ switch (_unitclass) do {
         ["US_MC_MARPAT_W", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     // US Marine Corps Desert
-    case ("CATD_US_MC_MARPAT_D_Soldier_Base"): {
-        ["US_MC_MARPAT_D", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_MC_MARPAT_D_Soldier_PlatoonCommander"): {
         ["US_MC_MARPAT_D", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -577,6 +544,9 @@ switch (_unitclass) do {
     case ("CATD_US_MC_MARPAT_D_Soldier_JTAC"): {
         ["US_MC_MARPAT_D", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_US_MC_MARPAT_D_Soldier_Surgeon"): {
+        ["US_MC_MARPAT_D", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_US_MC_MARPAT_D_Soldier_Medic"): {
         ["US_MC_MARPAT_D", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -594,9 +564,6 @@ switch (_unitclass) do {
     };
     case ("CATD_US_MC_MARPAT_D_Soldier_Logistician"): {
         ["US_MC_MARPAT_D", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_US_MC_MARPAT_D_Crew_Base"): {
-        ["US_MC_MARPAT_D", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_US_MC_MARPAT_D_Crew_Tank_Commander"): {
         ["US_MC_MARPAT_D", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -649,9 +616,6 @@ switch (_unitclass) do {
     case ("CATD_US_MC_MARPAT_D_Soldier_Marksman"): {
         ["US_MC_MARPAT_D", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_US_MC_MARPAT_D_Soldier_Special_Base"): {
-        ["US_MC_MARPAT_D", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_US_MC_MARPAT_D_Soldier_Special_Sniper"): {
         ["US_MC_MARPAT_D", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -659,9 +623,6 @@ switch (_unitclass) do {
         ["US_MC_MARPAT_D", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     //British Armed Forces - British Army MTP
-    case ("CATD_BAF_BA_MTP_Soldier_Base"): {
-        ["BAF_BA_MTP", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BAF_BA_MTP_Soldier_PlatoonCommander"): {
         ["BAF_BA_MTP", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -683,6 +644,9 @@ switch (_unitclass) do {
     case ("CATD_BAF_BA_MTP_Soldier_JTAC"): {
         ["BAF_BA_MTP", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_BAF_BA_MTP_Soldier_Surgeon"): {
+        ["BAF_BA_MTP", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_BAF_BA_MTP_Soldier_Medic"): {
         ["BAF_BA_MTP", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -700,9 +664,6 @@ switch (_unitclass) do {
     };
     case ("CATD_BAF_BA_MTP_Soldier_Logistician"): {
         ["BAF_BA_MTP", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_BAF_BA_MTP_Crew_Base"): {
-        ["BAF_BA_MTP", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_BAF_BA_MTP_Crew_Tank_Commander"): {
         ["BAF_BA_MTP", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -755,9 +716,6 @@ switch (_unitclass) do {
     case ("CATD_BAF_BA_MTP_Soldier_Marksman"): {
         ["BAF_BA_MTP", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_BAF_BA_MTP_Soldier_Special_Base"): {
-        ["BAF_BA_MTP", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_BAF_BA_MTP_Soldier_Special_Sniper"): {
         ["BAF_BA_MTP", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -765,9 +723,6 @@ switch (_unitclass) do {
         ["BAF_BA_MTP", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     //Private Military Company
-    case ("CATD_PMC_Soldier_Base"): {
-        ["PMC", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_PMC_Soldier_PlatoonCommander"): {
         ["PMC", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -789,6 +744,9 @@ switch (_unitclass) do {
     case ("CATD_PMC_Soldier_JTAC"): {
         ["PMC", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_PMC_Soldier_Surgeon"): {
+        ["PMC", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_PMC_Soldier_Medic"): {
         ["PMC", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -806,9 +764,6 @@ switch (_unitclass) do {
     };
     case ("CATD_PMC_Soldier_Logistician"): {
         ["PMC", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_PMC_Crew_Base"): {
-        ["PMC", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_PMC_Crew_Tank_Commander"): {
         ["PMC", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -861,9 +816,6 @@ switch (_unitclass) do {
     case ("CATD_PMC_Soldier_Marksman"): {
         ["PMC", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_PMC_Soldier_Special_Base"): {
-        ["PMC", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_PMC_Soldier_Special_Sniper"): {
         ["PMC", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -871,9 +823,6 @@ switch (_unitclass) do {
         ["PMC", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     //Streitkräfte Russlands (EMR-Sommer)
-    case ("CATD_RU_EMR_S_Soldier_Base"): {
-        ["RU_EMR_S", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_RU_EMR_S_Soldier_PlatoonCommander"): {
         ["RU_EMR_S", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -895,6 +844,9 @@ switch (_unitclass) do {
     case ("CATD_RU_EMR_S_Soldier_JTAC"): {
         ["RU_EMR_S", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_RU_EMR_S_Soldier_Surgeon"): {
+        ["RU_EMR_S", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_RU_EMR_S_Soldier_Medic"): {
         ["RU_EMR_S", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -912,9 +864,6 @@ switch (_unitclass) do {
     };
     case ("CATD_RU_EMR_S_Soldier_Logistician"): {
         ["RU_EMR_S", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_RU_EMR_S_Crew_Base"): {
-        ["RU_EMR_S", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_S_Crew_Tank_Commander"): {
         ["RU_EMR_S", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -967,9 +916,6 @@ switch (_unitclass) do {
     case ("CATD_RU_EMR_S_Soldier_Marksman"): {
         ["RU_EMR_S", "Soldier_Marksman"] call CATD_fnc_Kit;
     };
-    case ("CATD_RU_EMR_S_Soldier_Special_Base"): {
-        ["RU_EMR_S", "Soldier_Special_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_RU_EMR_S_Soldier_Special_Sniper"): {
         ["RU_EMR_S", "Soldier_Special_Sniper"] call CATD_fnc_Kit;
     };
@@ -977,9 +923,6 @@ switch (_unitclass) do {
         ["RU_EMR_S", "Soldier_Special_Spotter"] call CATD_fnc_Kit;
     };
     //Streitkräfte Russlands (EMR-Wüste)
-    case ("CATD_RU_EMR_W_Soldier_Base"): {
-        ["RU_EMR_W", "Soldier_Base"] call CATD_fnc_Kit;
-    };
     case ("CATD_RU_EMR_W_Soldier_PlatoonCommander"): {
         ["RU_EMR_W", "Soldier_PlatoonCommander"] call CATD_fnc_Kit;
     };
@@ -1001,6 +944,9 @@ switch (_unitclass) do {
     case ("CATD_RU_EMR_W_Soldier_JTAC"): {
         ["RU_EMR_W", "Soldier_JTAC"] call CATD_fnc_Kit;
     };
+    case ("CATD_RU_EMR_W_Soldier_Surgeon"): {
+        ["RU_EMR_W", "Soldier_Surgeon"] call CATD_fnc_Kit;
+    };
     case ("CATD_RU_EMR_W_Soldier_Medic"): {
         ["RU_EMR_W", "Soldier_Medic"] call CATD_fnc_Kit;
     };
@@ -1018,9 +964,6 @@ switch (_unitclass) do {
     };
     case ("CATD_RU_EMR_W_Soldier_Logistician"): {
         ["RU_EMR_W", "Soldier_Logistician"] call CATD_fnc_Kit;
-    };
-    case ("CATD_RU_EMR_W_Crew_Base"): {
-        ["RU_EMR_W", "Crew_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_W_Crew_Tank_Commander"): {
         ["RU_EMR_W", "Crew_Tank_Commander"] call CATD_fnc_Kit;
@@ -1072,9 +1015,6 @@ switch (_unitclass) do {
     };
     case ("CATD_RU_EMR_W_Soldier_Marksman"): {
         ["RU_EMR_W", "Soldier_Marksman"] call CATD_fnc_Kit;
-    };
-    case ("CATD_RU_EMR_W_Soldier_Special_Base"): {
-        ["RU_EMR_W", "Soldier_Special_Base"] call CATD_fnc_Kit;
     };
     case ("CATD_RU_EMR_W_Soldier_Special_Sniper"): {
         ["RU_EMR_W", "Soldier_Special_Sniper"] call CATD_fnc_Kit;

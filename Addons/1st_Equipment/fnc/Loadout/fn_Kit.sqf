@@ -9,9 +9,6 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 switch (_kitclass) do {
-    case ("Soldier_Base"): {
-        call CATD_fnc_U_Soldier_Base;
-    };
     case ("Soldier_PlatoonCommander"): {
         call CATD_fnc_U_Soldier_PlatoonCommander;
     };
@@ -33,6 +30,9 @@ switch (_kitclass) do {
     case ("Soldier_JTAC"): {
         call CATD_fnc_U_Soldier_JTAC;
     };
+    case ("Soldier_Surgeon"): {
+        call CATD_fnc_U_Soldier_Surgeon;
+    };
     case ("Soldier_Medic"): {
         call CATD_fnc_U_Soldier_Medic;
     };
@@ -50,9 +50,6 @@ switch (_kitclass) do {
     };
     case ("Soldier_Logistician"): {
         call CATD_fnc_U_Soldier_Logistician;
-    };
-    case ("Crew_Base"): {
-        call CATD_fnc_U_Crew_Base;
     };
     case ("Crew_Tank_Commander"): {
         call CATD_fnc_U_Crew_Tank_Commander;
@@ -104,9 +101,6 @@ switch (_kitclass) do {
     };
     case ("Soldier_Marksman"): {
         call CATD_fnc_U_Soldier_Marksman;
-    };
-    case ("Soldier_Special_Base"): {
-        call CATD_fnc_U_Soldier_Special_Base;
     };
     case ("Soldier_Special_Sniper"): {
         call CATD_fnc_U_Soldier_Special_Sniper;
