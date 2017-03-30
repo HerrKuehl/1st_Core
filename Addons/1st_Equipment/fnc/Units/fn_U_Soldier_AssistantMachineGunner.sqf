@@ -1,5 +1,5 @@
 if (_camo == "BW_F") then {
-    ["PBW_Uniform3_fleck", "pbw_splitter_mg_h", "BWA3_Carryall_Fleck", "PBW_Helm2_fleck"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_fleck", "pbw_splitter_mg_h", "BWA3_Carryall_Fleck", "PBW_Helm1_fleck"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
