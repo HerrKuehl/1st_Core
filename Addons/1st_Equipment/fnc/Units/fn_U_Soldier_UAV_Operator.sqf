@@ -1,5 +1,5 @@
 if (_camo == "BW_F") then {
-    ["BWA3_Uniform_Fleck", "BWA3_Vest_Rifleman1_Fleck", nil, "BWA3_OpsCore_Fleck_Patch"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_fleck", "pbw_splitter_schtz", nil, "PBW_Helm1_fleck_H"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
@@ -10,7 +10,7 @@ if (_camo == "BW_F") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
-    ["BWA3_Uniform_Tropen", "BWA3_Vest_Rifleman1_Tropen", nil, "BWA3_OpsCore_Tropen_Patch"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_tropen", "pbw_splitter_schtz", nil, "PBW_Helm1_tropen_H"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
@@ -109,7 +109,8 @@ if (_camo == "RU_EMR_W") then {
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 
-call CATD_fnc_Gear_BasicMedical;
+call CATD_fnc_Gear_Basic;
+call CATD_fnc_Gear_T0_Medical;
 
 if (playerSide == west) then {
     [nil, nil, "B_UAV_01_backpack_F"] call CATD_fnc_Outfit;

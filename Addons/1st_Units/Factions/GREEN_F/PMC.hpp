@@ -62,11 +62,17 @@
         displayName = "JTAC";
         icon = "iconMan";
     };
+    class CATD_PMC_Soldier_Surgeon: CATD_PMC_Soldier_Base
+    {
+        displayName = "Surgeon";
+        icon = "iconManMedic";
+        attendant = true;
+    };
     class CATD_PMC_Soldier_Medic: CATD_PMC_Soldier_Base
     {
         displayName = "Medic";
         icon = "iconManMedic";
-        attendant = 1;
+        attendant = true;
     };
     class CATD_PMC_Soldier_CFR: CATD_PMC_Soldier_Base
     {

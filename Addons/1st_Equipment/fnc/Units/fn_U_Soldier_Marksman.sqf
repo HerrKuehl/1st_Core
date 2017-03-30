@@ -1,5 +1,5 @@
 if (_camo == "BW_F") then {
-    ["BWA3_Uniform2_Fleck", "BWA3_Vest_Marksman_Fleck", "BWA3_TacticalPack_Fleck", "BWA3_M92_Fleck"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_fleck", "pbw_splitter_schtz", "BWA3_TacticalPack_Fleck", "PBW_Helm1_fleck"] call CATD_fnc_Outfit;
     ["hlc_rifle_g3a3ris", "optic_AMS"] call CATD_fnc_addWeapon;
     ["vest", "hlc_20rnd_762x51_b_G3", 6] call CATD_fnc_addItemTo;
     ["BWA3_P8"] call CATD_fnc_addWeapon;
@@ -9,7 +9,7 @@ if (_camo == "BW_F") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
-    ["BWA3_Uniform2_Tropen", "BWA3_Vest_Marksman_Tropen", "BWA3_TacticalPack_Tropen", "BWA3_M92_Tropen"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_tropen", "pbw_splitter_schtz", "BWA3_TacticalPack_Tropen", "PBW_Helm1_tropen"] call CATD_fnc_Outfit;
     ["hlc_rifle_g3a3ris", "optic_AMS"] call CATD_fnc_addWeapon;
     ["vest", "hlc_20rnd_762x51_b_G3", 6] call CATD_fnc_addItemTo;
     ["BWA3_P8"] call CATD_fnc_addWeapon;
@@ -99,7 +99,8 @@ if (_camo == "RU_EMR_W") then {
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 
-call CATD_fnc_Gear_BasicMedical;
+call CATD_fnc_Gear_Basic;
+call CATD_fnc_Gear_T0_Medical;
 ["Binocular"] call CATD_fnc_addWeapon;
 
 ["uniform", "ACE_MapTools"] call CATD_fnc_addItemTo;
