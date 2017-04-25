@@ -8,7 +8,7 @@ if (_camo == "BW_F") then {
 
     ["backpack", "hlc_100Rnd_762x51_M_MG3", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
@@ -21,7 +21,7 @@ if (_camo == "BW_T") then {
 
     ["backpack", "hlc_100Rnd_762x51_M_MG3", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_OCP") then {
@@ -34,7 +34,7 @@ if (_camo == "US_A_OCP") then {
 
     ["backpack", "rhsusf_100Rnd_762x51", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_UCP") then {
@@ -47,7 +47,7 @@ if (_camo == "US_A_UCP") then {
 
     ["backpack", "rhsusf_100Rnd_762x51", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_W") then {
@@ -60,7 +60,7 @@ if (_camo == "US_MC_MARPAT_W") then {
 
     ["backpack", "rhsusf_100Rnd_762x51", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_D") then {
@@ -73,7 +73,7 @@ if (_camo == "US_MC_MARPAT_D") then {
 
     ["backpack", "rhsusf_100Rnd_762x51", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BAF_BA_MTP") then {
@@ -86,7 +86,7 @@ if (_camo == "BAF_BA_MTP") then {
 
     ["backpack", "UK3CB_BAF_762_100Rnd", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
@@ -99,7 +99,7 @@ if (_camo == "PMC") then {
 
     ["backpack", "hlc_100Rnd_762x51_M_M60E4"] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {
@@ -112,7 +112,7 @@ if (_camo == "RU_EMR_S") then {
 
     ["backpack", "rhs_100Rnd_762x54mmR", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_fadak";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_W") then {
@@ -125,7 +125,7 @@ if (_camo == "RU_EMR_W") then {
 
     ["backpack", "rhs_100Rnd_762x54mmR", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_fadak";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_KSF1"] call CATD_fnc_addItemTo;
 };
 

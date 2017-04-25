@@ -5,7 +5,7 @@ if (_camo == "BW_F") then {
     ["BWA3_P8"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_15Rnd_9x19_P8", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
@@ -15,7 +15,7 @@ if (_camo == "BW_T") then {
     ["BWA3_P8"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_15Rnd_9x19_P8", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_OCP") then {
@@ -26,7 +26,7 @@ if (_camo == "US_A_OCP") then {
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_A_UCP") then {
@@ -37,7 +37,7 @@ if (_camo == "US_A_UCP") then {
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_W") then {
@@ -48,7 +48,7 @@ if (_camo == "US_MC_MARPAT_W") then {
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "US_MC_MARPAT_D") then {
@@ -59,7 +59,7 @@ if (_camo == "US_MC_MARPAT_D") then {
     ["rhsusf_weap_m9"] call CATD_fnc_addWeapon;
     ["vest", "rhsusf_mag_15Rnd_9x19_FMJ", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BAF_BA_MTP") then {
@@ -69,7 +69,7 @@ if (_camo == "BAF_BA_MTP") then {
     ["UK3CB_BAF_L131A1"] call CATD_fnc_addWeapon;
     ["vest", "UK3CB_BAF_9_17Rnd", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc152";
+    _unit linkItem "anprc152";
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "PMC") then {
@@ -79,7 +79,7 @@ if (_camo == "PMC") then {
     ["hgun_P07_F"] call CATD_fnc_addWeapon;
     ["vest", "16Rnd_9x21_Mag", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "tf_anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 

@@ -14,5 +14,5 @@ call CATD_fnc_Gear_Basic;
 call CATD_fnc_Gear_T0_Medical;
 ["Binocular"] call CATD_fnc_addWeapon;
 _unit linkItem "ItemGPS";
-_unit linkItem "tf_anprc152";
+_unit linkItem "anprc152";
 ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
