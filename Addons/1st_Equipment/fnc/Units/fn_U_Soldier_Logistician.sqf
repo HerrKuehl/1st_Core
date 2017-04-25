@@ -59,7 +59,7 @@ if (_camo == "PMC") then {
     ["rhs_weap_m4a1_carryhandle"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_556x45_Stanag", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "fadak";
+    _unit linkItem "anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {

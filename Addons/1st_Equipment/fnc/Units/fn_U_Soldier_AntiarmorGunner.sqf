@@ -107,7 +107,7 @@ if (_camo == "PMC") then {
     ["launch_I_Titan_short_F"] call CATD_fnc_addWeapon;
     ["backpack", "Titan_AT", 2] call CATD_fnc_addItemTo;
 
-    _unit linkItem "fadak";
+    _unit linkItem "anprc148jem";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {
