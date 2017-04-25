@@ -95,7 +95,7 @@ if (_camo == "PMC") then {
 
     ["rhs_weap_m136_hp"] call CATD_fnc_addWeapon;
 
-    _unit linkItem "anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {

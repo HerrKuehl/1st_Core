@@ -59,7 +59,7 @@ if (_camo == "PMC") then {
     ["hgun_PDW2000_F", "optic_Aco_smg"] call CATD_fnc_addWeapon;
     ["vest", "30Rnd_9x21_Mag", 4] call CATD_fnc_addItemTo;
 
-    _unit linkItem "anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {

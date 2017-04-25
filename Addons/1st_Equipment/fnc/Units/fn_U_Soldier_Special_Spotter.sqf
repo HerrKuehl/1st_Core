@@ -59,7 +59,7 @@ if (_camo == "PMC") then {
     ["hlc_rifle_G36CV"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
 
-    _unit linkItem "anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 

@@ -123,7 +123,7 @@ if (_camo == "PMC") then {
     ["vest", "SmokeShellBlue"] call CATD_fnc_addItemTo;
     ["vest", "SmokeShellRed"] call CATD_fnc_addItemTo;
 
-    _unit linkItem "anprc148jem";
+    _unit linkItem "fadak";
     ["uniform", "ACE_Flashlight_XL50"] call CATD_fnc_addItemTo;
 };
 if (_camo == "RU_EMR_S") then {
