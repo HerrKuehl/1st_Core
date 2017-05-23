@@ -15,7 +15,7 @@ if (_camo == "BW_F") then {
     ["uniform", "ACE_Flashlight_MX991"] call CATD_fnc_addItemTo;
 };
 if (_camo == "BW_T") then {
-    ["PBW_Uniform3_fleck", "pbw_splitter_grpfhr", "BWA3_Kitbag_Tropen", "PBW_Helm1_tropen_HBO"] call CATD_fnc_Outfit;
+    ["PBW_Uniform3_tropen", "pbw_splitter_grpfhr", "BWA3_Kitbag_Tropen", "PBW_Helm1_tropen_HBO"] call CATD_fnc_Outfit;
     ["hlc_rifle_G36A1"] call CATD_fnc_addWeapon;
     ["vest", "BWA3_30Rnd_556x45_G36", 6] call CATD_fnc_addItemTo;
     ["vest", "BWA3_30Rnd_556x45_G36_Tracer", 4] call CATD_fnc_addItemTo;
